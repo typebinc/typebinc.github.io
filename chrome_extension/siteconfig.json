@@ -9,12 +9,17 @@
             ],
             "scraping": {
                 "canScrap": false,
-                "withHtml": false,
+                "withHtml": true,
                 "withWindow": [
                     {
-                        "essential": false,
-                        "keyPath": "",
-                        "resultJsonKey": ""
+                        "essential": true,
+                        "keyPath": "P_MTOP_PCDETAIL",
+                        "resultJsonKey": "P_MTOP_PCDETAIL"
+                    },
+                    {
+                        "essential": true,
+                        "keyPath": "P_MTOP_PCDESC",
+                        "resultJsonKey": "P_MTOP_PCDESC"
                     }
                 ]
             },
