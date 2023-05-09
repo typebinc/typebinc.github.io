@@ -1,0 +1,42 @@
+{
+    "version": "1.0.1",
+    "sites": [
+        {
+            "urlPatterns": [
+                "https://detail.tmall.com/*",
+                "https://*.detail.tmall.com/*",
+                "https://detail.tmall.hk/*"
+            ],
+            "scraping": {
+                "canScrap": false,
+                "withHtml": false,
+                "withWindow": [
+                    {
+                        "essential": false,
+                        "keyPath": "",
+                        "resultJsonKey": ""
+                    }
+                ]
+            },
+            "netCap": [
+                {
+                    "urlPatterns": [
+                        "https://*mtop.taobao.pcdetail.data.get*"
+                    ],
+                    "windowKey": "P_MTOP_PCDETAIL"
+                }
+            ],
+            "elemCap": [
+                {
+                    "scriptOperation": {
+                        "srcUrlPatterns": [
+                            "*/mtop.taobao.detail.getdesc/*"
+                        ],
+                        "isCallSrc": true
+                    },
+                    "windowKey": "P_MTOP_PCDESC"
+                }
+            ]
+        }
+    ]
+}
