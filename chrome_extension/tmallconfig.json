@@ -1,0 +1,88 @@
+{
+    "netCap": [
+        {
+            "urlPatterns": [
+                "https://*mtop.taobao.pcdetail.data.get*"
+            ],
+            "windowKey": "P_MTOP_PCDETAIL",
+            "successInclude": "SUCCESS"
+        }
+    ],
+    "elemCap": [
+        {
+            "scriptOperation": {
+                "srcUrlPatterns": [
+                    "*/mtop.taobao.detail.getdesc/*"
+                ],
+                "isCallSrc": true
+            },
+            "windowKey": "P_MTOP_PCDESC",
+            "successInclude": "SUCCESS"
+        }
+    ],
+    "detail": {
+        "windowKey": "P_MTOP_PCDETAIL",
+        "successInclude": "SUCCESS",
+        "url": "https://h5api.m.tmall.com/h5/mtop.taobao.pcdetail.data.get/1.0/?jsv=2.6.1",
+        "query": {
+            "appKey": "12574478",
+            "t": "",
+            "sign": "",
+            "api": "mtop.taobao.pcdetail.data.get",
+            "v": "1.0",
+            "isSec": "0",
+            "ecode": "0",
+            "timeout": "10000",
+            "dataType": "json",
+            "valueType": "string",
+            "ttid": "2022%40taobao_litepc_9.17.0",
+            "AntiFlood": "true",
+            "AntiCreep": "true",
+            "preventFallback": "true",
+            "type": "json",
+            "data": {
+                "id": "",
+                "detail_v": "3.3.2",
+                "exParams": {
+                    "id": "",
+                    "abbucket": "0",
+                    "ns": "1",
+                    "spm": "",
+                    "queryParams": "",
+                    "domain": "https://detail.tmall.com",
+                    "path_name": "item.htm"
+                }
+            }
+        }
+    },
+    "desc": {
+        "windowKey": "P_MTOP_PCDESC",
+        "url": "https://h5api.m.tmall.com/h5/mtop.taobao.detail.getdesc/7.0/?jsv=2.7.0",
+        "query": {
+            "appKey": "12574478",
+            "t": "",
+            "sign": "",
+            "api": "mtop.taobao.detail.getdesc",
+            "v": "7.0",
+            "isSec": "0",
+            "ecode": "0",
+            "AntiFlood": "true",
+            "AntiCreep": "true",
+            "H5Request": "true",
+            "timeout": "10000",
+            "ttid": "2022%40tmall_litepc_9.17.0",
+            "type": "jsonp",
+            "dataType": "jsonp",
+            "callback": "mtopjsonp1",
+            "data": {
+                "id": "",
+                "abbucket": "0",
+                "ns": "1",
+                "spm": "",
+                "detail_v": "3.3.0",
+                "preferWireless": "true"
+            }
+        },
+        "successInclude": "SUCCESS"
+    }
+}
