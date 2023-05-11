@@ -50,7 +50,7 @@
                     "spm": "",
                     "queryParams": "",
                     "domain": "https://detail.tmall.com",
-                    "path_name": "item.htm"
+                    "path_name": "/item.htm"
                 }
             }
         }
