@@ -70,7 +70,7 @@
             "AntiCreep": "true",
             "H5Request": "true",
             "timeout": "10000",
-            "ttid": "2022%40tmall_litepc_9.17.0",
+            "ttid": "2022@tmall_litepc_9.17.0",
             "type": "jsonp",
             "dataType": "jsonp",
             "callback": "mtopjsonp1",
