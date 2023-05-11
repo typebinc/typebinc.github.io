@@ -35,7 +35,7 @@
             "timeout": "10000",
             "dataType": "json",
             "valueType": "string",
-            "ttid": "2022%40taobao_litepc_9.17.0",
+            "ttid": "2022@taobao_litepc_9.17.0",
             "AntiFlood": "true",
             "AntiCreep": "true",
             "preventFallback": "true",
