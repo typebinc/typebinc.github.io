@@ -1,4 +1,7 @@
 {
+    "tokenKey": "_m_h5_tk",
+    "useNetCap": false,
+    "useElemCap": false,
     "netCap": [
         {
             "urlPatterns": [
