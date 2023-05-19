@@ -60,6 +60,10 @@
     },
     "desc": {
         "windowKey": "P_MTOP_PCDESC",
+        "jsonCompress": [{
+                "path": "data.components.componentData.desc_richtext_pc.model.text",
+                "resultKey": "descHtml"
+            }],
         "url": "https://h5api.m.tmall.com/h5/mtop.taobao.detail.getdesc/7.0/?jsv=2.7.0",
         "query": {
             "appKey": "12574478",
