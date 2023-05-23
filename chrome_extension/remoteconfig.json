@@ -1,3 +1,4 @@
 {
-    "tmallNewUIToggle": false
+    "tmallNewUIToggle": false, 
+    "tmallNewUIRollout": 10
 }
