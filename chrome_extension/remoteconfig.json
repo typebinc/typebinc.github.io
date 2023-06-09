@@ -1,4 +1,5 @@
 {
     "tmallNewUIToggle": false, 
-    "tmallNewUIRollout": 10
+    "tmallNewUIRollout": 10,
+    "aliKRWQuery": "data.commonModule.currencyCode"
 }
