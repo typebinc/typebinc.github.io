@@ -1,4 +1,6 @@
 {
     "tmallNewUIToggle": false, 
-    "tmallNewUIRollout": 10
+    "tmallNewUIRollout": 10,
+    "aliDetailConfQuery": "#switcher-info > span.currency",
+    "aliListConfQuery": "#switcher-info > span.currency"
 }
