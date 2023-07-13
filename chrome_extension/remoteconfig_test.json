@@ -3,7 +3,16 @@
     "tmallNewUIRollout": 5,
     "aliKRWQuery": "data.commonModule.currencyCode",
     "worldTaobao": {
-            "useLink": true,
-            "useClick": true
+        "useLink": true,
+        "useClick": true
+    },
+    "transHtml": {
+        "tb": false,
+        "ali": false,
+        "osee": false,
+        "amz": true,
+        "vvic": false,
+        "rkt": false,
+        "iherb": false,
     }
 }
