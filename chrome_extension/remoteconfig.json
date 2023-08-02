@@ -2,6 +2,7 @@
     "tmallNewUIToggle": false, 
     "tmallNewUIRollout": 10,
     "aliKRWQuery": "data.commonModule.currencyCode",
+    "aliKRWQueries": ["data.commonModule.currencyCode", "data.currencyComponent.currencyCode"],
     "worldTaobao": {
         "useLink": true,
         "useClick": true
