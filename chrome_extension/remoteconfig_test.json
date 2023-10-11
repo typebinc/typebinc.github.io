@@ -1,5 +1,5 @@
 {
-    "tmallNewUIToggle": true, 
+    "tmallNewUIToggle": false, 
     "tmallNewUIRollout": 5,
     "aliKRWQueries": ["data.commonModule.currencyCode", "data.currencyComponent.currencyCode"],
     "worldTaobao": {
