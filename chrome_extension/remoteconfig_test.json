@@ -1,5 +1,5 @@
 {
-    "tmallOldRedirect": true, 
+    "tmallOldRedirect": false, 
     "tmallNewUIToggle": false, 
     "tmallNewUIRollout": 100,
     "aliKRWQueries": ["data.commonModule.currencyCode", "data.currencyComponent.currencyCode"],
