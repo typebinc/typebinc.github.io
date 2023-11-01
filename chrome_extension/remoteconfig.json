@@ -1,4 +1,5 @@
 {
+    "tmallOldForceRedirectChromeVersion": "111.0.0.0",
     "tmallOldRedirect": false,
     "tmallNewUIToggle": false, 
     "tmallNewUIRollout": 10,
