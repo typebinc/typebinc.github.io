@@ -8,6 +8,11 @@
         "useLink": true,
         "useClick": true
     },
+    "aliDesc": {
+            "useDesc": true,
+            "descRootQuery": "#product-description",
+            "descUrlQuery": ["descriptionModule.descriptionUrl", "description.fields.detailDesc", "productDescComponent.descriptionUrl"]
+    },
     "transHtml": {
         "tb": false,
         "ali": false,
