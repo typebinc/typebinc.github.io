@@ -1,0 +1,1 @@
+(function execute(){console.error('야이야이야~~~~~');})();
