@@ -23,5 +23,5 @@
         "rkt": false,
         "iherb": false
     },
-    "disabledImageSearchBtn": false
+    "disabledImageSearchBtn": true
 }
