@@ -22,5 +22,6 @@
         "vvic": false,
         "rkt": false,
         "iherb": false
-    }
+    },
+    "disabledImageSearchBtn": false
 }
