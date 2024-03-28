@@ -23,5 +23,6 @@
         "rkt": false,
         "iherb": false
     },
-    "disabledImageSearchBtn": false
+    "disabledImageSearchBtn": false,
+    "sheinApiVersion": "1.1.8"
 }
