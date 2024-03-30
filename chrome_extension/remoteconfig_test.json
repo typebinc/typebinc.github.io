@@ -23,5 +23,6 @@
         "iherb": false
     },
     "disabledImageSearchBtn": false,
-    "sheinApiVersion": "1.1.8"
+    "sheinApiVersion": "1.1.8",
+    "disabledNaverImageSearchBtn": true
 }
