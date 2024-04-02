@@ -25,5 +25,5 @@
     },
     "disabledImageSearchBtn": false,
     "sheinApiVersion": "1.1.8",
-    "disabledNaverImageSearchBtn": true
+    "disabledNaverImageSearchBtn": false
 }
