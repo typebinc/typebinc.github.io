@@ -1,0 +1,2 @@
+(()=>{"use strict";fetch("https://img.alicdn.com/imgextra/i2/367595632/O1CN01TybXgA1rTVJFOVq92_!!367595632.jpg").then((e=>e.blob())).then((e=>{console.error("blob size: ".concat(e.size))})).catch((e=>console.error(e))),console.error("offscreen test gogo")})();
+//# sourceMappingURL=testoffscreenscript.js.map
