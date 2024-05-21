@@ -9,9 +9,15 @@
         "useClick": true
     },
     "aliDesc": {
-            "useDesc": true,
-            "descRootQuery": "#product-description",
-            "descUrlQuery": ["descriptionModule.descriptionUrl", "description.fields.detailDesc", "productDescComponent.descriptionUrl"]
+        "useDesc": true,
+        "descRootQuery": "#product-description",
+        "descUrlQuery": ["descriptionModule.descriptionUrl", "description.fields.detailDesc", "productDescComponent.descriptionUrl"]
+    },
+    "taoDesc": {
+        "useHtmlReplace": true
+    },
+    "tmallDesc": {
+        "useHtmlReplace": true
     },
     "transHtml": {
         "tb": false,
