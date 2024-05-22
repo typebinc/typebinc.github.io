@@ -23,7 +23,13 @@
             }
     },
     "tmallDesc": {
-        "useHtmlReplace": true
+        "useHtmlReplace": true,
+        "htmlImageDownloadHeader": {
+                "referrer": "https://detail.tmall.com/",
+                "headers": {
+                    "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+                }
+            }
     },
     "transHtml": {
         "tb": false,
