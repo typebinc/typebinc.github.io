@@ -11,7 +11,7 @@
         "descUrlQuery": ["descriptionModule.descriptionUrl", "description.fields.detailDesc", "productDescComponent.descriptionUrl"]
     },
     "taoDesc": {
-        "useHtmlReplace": true,
+        "useHtmlReplace": false,
         "htmlImageDownloadHeader": {
                 "headers": {
                     "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
@@ -19,7 +19,7 @@
             }
     },
     "tmallDesc": {
-        "useHtmlReplace": true,
+        "useHtmlReplace": false,
         "htmlImageDownloadHeader": {
                 "headers": {
                     "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
