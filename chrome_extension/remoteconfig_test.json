@@ -14,7 +14,13 @@
         "descUrlQuery": ["descriptionModule.descriptionUrl", "description.fields.detailDesc", "productDescComponent.descriptionUrl"]
     },
     "taoDesc": {
-        "useHtmlReplace": true
+        "useHtmlReplace": true,
+        "htmlImageDownloadHeader": {
+                "referrer": "https://item.taobao.com/",
+                "headers": {
+                    "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+                }
+            }
     },
     "tmallDesc": {
         "useHtmlReplace": true
