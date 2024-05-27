@@ -43,6 +43,6 @@
     "disabledNaverImageSearchBtn": false,
     "useOseeTracking": true,
     "smartStoreConfig": {
-        "skipVideoHls": false
+        "skipVideoHls": true
     }
 }
