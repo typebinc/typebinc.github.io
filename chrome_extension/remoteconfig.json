@@ -42,5 +42,8 @@
     "disabledImageSearchBtn": false,
     "sheinApiVersion": "1.1.8",
     "disabledNaverImageSearchBtn": false,
-    "useOseeTracking": true
+    "useOseeTracking": true,
+    "smartStoreConfig": {
+        "skipVideoHls": true
+    }
 }
