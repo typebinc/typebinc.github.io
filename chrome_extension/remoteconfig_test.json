@@ -44,5 +44,9 @@
     "useOseeTracking": true,
     "smartStoreConfig": {
         "skipVideoHls": true
+    },
+    "vvicLoginCheck": {
+        "listButtonCheck": true,
+        "itemButtonCheck": true
     }
 }
