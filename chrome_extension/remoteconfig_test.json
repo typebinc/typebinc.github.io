@@ -46,7 +46,7 @@
         "skipVideoHls": true
     },
     "vvicLoginCheck": {
-        "listButtonCheck": false,
-        "itemButtonCheck": false
+        "listButtonCheck": true,
+        "itemButtonCheck": true
     }
 }
