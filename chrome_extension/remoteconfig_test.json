@@ -48,5 +48,6 @@
     "vvicLoginCheck": {
         "listButtonCheck": true,
         "itemButtonCheck": true
-    }
+    },
+    "useAutoPhotoReview": true
 }
