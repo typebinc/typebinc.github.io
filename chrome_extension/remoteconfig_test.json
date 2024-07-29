@@ -49,5 +49,5 @@
         "listButtonCheck": true,
         "itemButtonCheck": true
     },
-    "useAutoPhotoReview": false
+    "useAutoPhotoReview": true
 }
