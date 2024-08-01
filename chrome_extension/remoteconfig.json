@@ -50,5 +50,9 @@
         "listButtonCheck": true,
         "itemButtonCheck": true
     },
-    "useAutoPhotoReview": true
+    "useAutoPhotoReview": true,
+    "photoReviewConfig": {
+        "score": 3,
+        "negativeWordCount": 2
+    }
 }
