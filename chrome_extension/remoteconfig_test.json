@@ -53,5 +53,11 @@
     "photoReviewConfig": {
         "score": 3,
         "negativeWordCount": 2
+    },
+    "templateScrap": {
+        "useTaobao:": true,
+        "useTmall": true,
+        "useVvic": true,
+        "useRakuten": true
     }
 }
