@@ -55,7 +55,7 @@
         "negativeWordCount": 2
     },
     "templateScrap": {
-        "useTaobao:": true,
+        "useTaobao": true,
         "useTmall": true,
         "useVvic": true,
         "useRakuten": true
