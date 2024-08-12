@@ -8,7 +8,7 @@
      "aliDesc": {
         "useDesc": true,
         "descRootQuery": "#product-description",
-        "descUrlQuery": ["P_MTOP_PCDETAIL.data.result.DESC.pcDescUrl", "descriptionModule.descriptionUrl", "description.fields.detailDesc", "productDescComponent.descriptionUrl"]
+        "descUrlQuery": ["P_MTOP_PCDETAIL.data.data.productDescComponent.descriptionUrl", "P_MTOP_PCDETAIL.data.result.DESC.pcDescUrl", "descriptionModule.descriptionUrl", "description.fields.detailDesc", "productDescComponent.descriptionUrl"]
     },
     "taoDesc": {
         "useHtmlReplace": true,
