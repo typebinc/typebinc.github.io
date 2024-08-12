@@ -59,7 +59,8 @@
         "useTaobao": true,
         "useTmall": true,
         "useVvic": true,
-        "useRakuten": true
+        "useRakuten": true,
+        "useAli": true
     },
     "scrapConfig": {
         "checkDuplication": true
