@@ -56,11 +56,11 @@
         "negativeWordCount": 2
     },
      "templateScrap": {
-        "useTaobao": true,
-        "useTmall": true,
-        "useVvic": true,
-        "useRakuten": true,
-        "useAli": true
+        "v_taobao": "1.1.117",
+        "v_tmall": "1.1.117",
+        "v_vvic": "1.1.117",
+        "v_rakuten": "1.1.117",
+        "v_ali": "1.1.117"
     },
     "scrapConfig": {
         "checkDuplication": true
