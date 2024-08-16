@@ -26,6 +26,9 @@
                 }
             }
     },
+    "iHerbDesc": {
+        "querySelectors": [".inner-content", ".collapse-item-content#overview", ".collapse-item-content#details", ".collapse-item-content#product-supplement-facts"]
+    },
     "worldTaobao": {
         "useLink": true,
         "useClick": true
