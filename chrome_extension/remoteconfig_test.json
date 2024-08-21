@@ -65,6 +65,7 @@
         "v_ali": "1.1.117"
     },
     "scrapConfig": {
-        "checkDuplication": true
+        "checkDuplication": true,
+        "useOffscreen": true
     }
 }
