@@ -71,7 +71,7 @@
     "taobaoConfig": {
         "scrap": {
             "useDynamicProperty": true,
-            "dynamicPropertyPaths": ["childstateNode", "state", "detail"],
+            "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
             "dynamicMaxDepth": 30
         }
     }
