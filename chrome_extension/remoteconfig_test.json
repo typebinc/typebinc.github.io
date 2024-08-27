@@ -74,5 +74,12 @@
             "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
             "dynamicMaxDepth": 30
         }
+    },
+    "tmallConfig": {
+        "scrap": {
+            "useDynamicProperty": true,
+            "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
+            "dynamicMaxDepth": 30
+        }
     }
 }
