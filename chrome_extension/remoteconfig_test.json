@@ -67,5 +67,12 @@
     "scrapConfig": {
         "checkDuplication": true,
         "useOffscreen": true
+    },
+    "taobaoConfig": {
+        "scrap": {
+            "useDynamicProperty": true,
+            "dynamicPropertyPaths": ["childstateNode", "state", "detail"],
+            "dynamicMaxDepth": 30
+        }
     }
 }
