@@ -69,11 +69,15 @@
         "checkDuplication": true,
         "useOffscreen": true
     },
-    "taobaoConfig": {
+     "taobaoConfig": {
         "scrap": {
             "useDynamicProperty": true,
             "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
             "dynamicMaxDepth": 30
+        },
+        "trigger": {
+            "useDescTrigger": true,
+            "descClassName": "[class^=BasicContent]"
         }
     },
     "tmallConfig": {
@@ -81,6 +85,10 @@
             "useDynamicProperty": true,
             "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
             "dynamicMaxDepth": 30
+        },
+        "trigger": {
+            "useDescTrigger": true,
+            "descClassName": "[class^=BasicContent--root]"
         }
     }
 }
