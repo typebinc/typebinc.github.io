@@ -76,7 +76,7 @@
         },
         "trigger": {
             "useDescTrigger": true,
-            "descClassName": "[class^=BasicContent--root]"
+            "descClassName": "[class^=BasicContent]"
         }
     },
     "tmallConfig": {
