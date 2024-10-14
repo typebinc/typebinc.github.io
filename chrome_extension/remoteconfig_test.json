@@ -96,5 +96,19 @@
             "useDescTrigger": true,
             "descClassName": "[class^=BasicContent--root]"
         }
+    },
+    "amazonConfig":{
+        "productList":{
+            "querySelectors":{
+                "global":{
+                    "container": ["div[class*=_octopus-search-result-card_style_apbSearchResultsContainer__]"],
+                    "product": ["a.octopus-pc-item-link", "a.s-no-outline"]
+                },
+                "japan":{
+                    "container": ["div.s-main-slot"],
+                    "product": [ "div.s-product-image-container a[href*='/dp/']", "div.s-product-image-container a[href*='/gp/']"]
+                }
+            }
+        }
     }
 }
