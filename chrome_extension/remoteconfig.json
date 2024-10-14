@@ -78,7 +78,14 @@
         "trigger": {
             "useDescTrigger": true,
             "descClassName": "[class^=BasicContent]"
-        }
+        },
+         "cart": {
+             "querySelectors": 
+             {
+                 "container" : ["#listContainer_1"],
+                 "product": ["a[class^='imageContainer--']"],
+             }
+         }
     },
     "tmallConfig": {
         "scrap": {
