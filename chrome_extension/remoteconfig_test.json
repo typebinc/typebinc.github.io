@@ -82,7 +82,7 @@
              "querySelectors": 
              {
                  "container" : ["#listContainer_1"],
-                 "product": ["a[class^='imageContainer--']"],
+                 "product": ["a[class^='imageContainer--']"]
              }
          }
     },
