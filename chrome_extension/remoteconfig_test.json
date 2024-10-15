@@ -104,7 +104,15 @@
                     "product":["dl.item>dt.photo>a"]
                 }
             ],
-             "maxAttempts": 30
+            "urlRegex":[
+                "^https:\\/\\/\\w+(?:\\.world)?\\.(?:taobao|tmall)\\.com\\/shop\\/",
+                "^https:\\/\\/shop\\w+(?:\\.world)?\\.(?:taobao|tmall)\\.com\\/",
+                "^https:\\/\\/\\w{2,}(?:\\.world)?\\.(?:taobao|tmall)\\.com\\/search\\.htm",
+                "scene=taobao_shop",
+                "\\.(?:taobao|tmall)\\.com\\/category-\\d+\\.htm",
+                "^https:\\/\\/\\w{10,}\\.(?:taobao|tmall)\\.com\\/"
+            ],
+            "maxAttempts": 30
         }
     },
     "tmallConfig": {
