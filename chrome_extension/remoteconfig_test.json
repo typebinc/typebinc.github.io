@@ -114,13 +114,6 @@
                 }
             },
             "maxAttempts": 30
-        },
-        "my_taobao":{
-            "querySelectors":{
-                "container":["[class^=goodsList--]"],
-                "product":["[class^=goodsItem--]"]
-            },
-            "maxAttempts":30
         }
     }
 }
