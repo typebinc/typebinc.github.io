@@ -92,7 +92,7 @@
         "seller_store":{
             "querySelectors":[
                 {
-                    "container":["div[class^=container--]"],
+                    "container":["div[data-spm='product_shelf']>div"],
                     "product":["a[class^=linkWrapperArea--]"]
                 },
                 {
