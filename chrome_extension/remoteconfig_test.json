@@ -88,7 +88,24 @@
                  ]
              },
             "maxAttempts": 30
-         }
+         },
+        "seller_store":{
+            "querySelectors":[
+                {
+                    "container":["div[class^=container--]"],
+                    "product":["a[class^=linkWrapperArea--]"]
+                },
+                {
+                    "container":[".J_TItems"],
+                    "product":["a.J_TGoldData"]
+                },
+                {
+                    "container":[".tshop-pbsm"],
+                    "product":["dl.item>dt.photo>a"]
+                }
+            ],
+             "maxAttempts": 30
+        }
     },
     "tmallConfig": {
         "scrap": {
