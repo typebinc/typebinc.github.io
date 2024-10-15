@@ -79,11 +79,15 @@
             "descClassName": "[class^=BasicContent]"
         },
           "cart": {
-             "querySelectors": 
-             {
-                 "container" : ["#listContainer_1"],
-                 "product": ["a[class^='imageContainer--']"]
-             }
+             "querySelectors": {
+                 "container": [
+                     "#listContainer_1"
+                 ],
+                 "product": [
+                     "a[class*='imageContainer--']"
+                 ]
+             },
+            "maxAttempts": 30
          }
     },
     "tmallConfig": {
@@ -108,7 +112,8 @@
                     "container": ["div.s-main-slot"],
                     "product": [ "div.s-product-image-container a[href*='/dp/']", "div.s-product-image-container a[href*='/gp/']"]
                 }
-            }
+            },
+            "maxAttempts": 30
         }
     }
 }
