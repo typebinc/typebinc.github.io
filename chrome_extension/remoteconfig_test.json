@@ -87,7 +87,8 @@
                      "a[class*='imageContainer--']"
                  ]
              },
-            "maxAttempts": 30
+            "maxAttempts": 30,
+            "attemptDelayMs":100
          },
         "seller_store":{
             "querySelectors":[
