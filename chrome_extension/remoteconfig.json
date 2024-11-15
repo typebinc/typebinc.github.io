@@ -143,5 +143,12 @@
             },
             "maxAttempts": 30
         }
+    },
+    "rakutenConfig": {
+        "scrap": {
+            "dynamicPropertyPaths": ["api.itemInfoSku"],
+            "dynamicMaxDepth": 50,           
+            "thumbnailSelectors": ["div[irc='Image'] img"]
+        }
     }
 }
