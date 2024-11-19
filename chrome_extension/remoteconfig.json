@@ -74,7 +74,7 @@
             "useDynamicProperty": true,
             "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
             "dynamicMaxDepth": 30,
-            "useImageHeader": true
+            "useImageHeader": false
         },
         "trigger": {
             "useDescTrigger": true,
@@ -124,7 +124,7 @@
             "useDynamicProperty": true,
             "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
             "dynamicMaxDepth": 30,
-            "useImageHeader": true
+            "useImageHeader": false
         },
         "trigger": {
             "useDescTrigger": true,
