@@ -72,7 +72,8 @@
         "scrap": {
             "useDynamicProperty": true,
             "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
-            "dynamicMaxDepth": 30
+            "dynamicMaxDepth": 30,
+            "useImageHeader": true
         },
         "trigger": {
             "useDescTrigger": true,
@@ -121,7 +122,8 @@
         "scrap": {
             "useDynamicProperty": true,
             "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
-            "dynamicMaxDepth": 30
+            "dynamicMaxDepth": 30,
+            "useImageHeader": true
         },
         "trigger": {
             "useDescTrigger": true,
