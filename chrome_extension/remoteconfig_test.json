@@ -66,18 +66,18 @@
     },
     "scrapConfig": {
         "checkDuplication": true,
-        "useOffscreen": true
+        "useOffscreen": true,
+	"excludedImageList": [
+		"img.alicdn.com/imgextra/i1/O1CN011GDmVH1PCjsNLVMtP_!!6000000001805-2-tps-750-880.png",
+		"https://img.alicdn.com/imgextra/i3/O1CN01MsWlBa29wVnysxUvn_!!6000000008132-2-tps-750-880.png"
+	]
     },
     "taobaoConfig": {
         "scrap": {
             "useDynamicProperty": true,
             "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
             "dynamicMaxDepth": 30,
-            "useImageHeader": false,
-            "priceDescUrlList": [
-				"img.alicdn.com/imgextra/i1/O1CN011GDmVH1PCjsNLVMtP_!!6000000001805-2-tps-750-880.png",
-				"https://img.alicdn.com/imgextra/i3/O1CN01MsWlBa29wVnysxUvn_!!6000000008132-2-tps-750-880.png"
-			]
+            "useImageHeader": false
         },
         "trigger": {
             "useDescTrigger": true,
