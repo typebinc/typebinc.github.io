@@ -4,7 +4,7 @@
     "tmallNewUIToggle": false, 
     "tmallNewUIRollout": 10,
     "aliKRWQuery": "data.commonModule.currencyCode",
-    "aliKRWQueries": ["data.commonModule.currencyCode", "data.currencyComponent.currencyCode"],
+    "aliKRWQueries": ["data.commonModule.currencyCode", "data.currencyComponent.currencyCode", "json.P_MTOP_PCDETAIL.data.result.GLOBAL_DATA.globalData.currencyCode"],
      "aliDesc": {
         "useDesc": true,
         "descRootQuery": "#product-description",
