@@ -3,7 +3,7 @@
     "tmallOldRedirect": false, 
     "tmallNewUIToggle": false, 
     "tmallNewUIRollout": 100,
-    "aliKRWQueries": ["data.commonModule.currencyCode", "data.currencyComponent.currencyCode"],
+    "aliKRWQueries": ["data.commonModule.currencyCode", "data.currencyComponent.currencyCode", "json.P_MTOP_PCDETAIL.data.result.GLOBAL_DATA.globalData.currencyCode"],
     "worldTaobao": {
         "useLink": true,
         "useClick": true
