@@ -143,23 +143,31 @@
     }
   },
   "amazonConfig": {
-    "productList": {
-      "querySelectors": {
-        "global": {
-          "container": [
-            "div[class*=_octopus-search-result-card_style_apbSearchResultsContainer__]"
-          ],
-          "product": ["a.octopus-pc-item-link", "a.s-no-outline"]
-        },
-        "japan": {
+    "list": {
+      "querySelectors": [
+        {
           "container": ["div.s-main-slot"],
           "product": [
             "div.s-product-image-container a[href*='/dp/']",
             "div.s-product-image-container a[href*='/gp/']"
-          ]
+          ],
+          "type": "global"
+        },
+        {
+          "container": [
+            "div[class*='_octopus-search-result-card_style_apbSearchResultsContainer__']"
+          ],
+          "product": ["a.octopus-pc-item-link, a.s-no-outline"],
+          "type": "japen"
+        },
+        {
+          "container": ["div.stores-page div.stores-column"],
+          "product": [
+            "li[class*='ProductGridItem__itemOuter'] a[class*='ProductGridItem__overlay']"
+          ],
+          "type": "seller_store"
         }
-      },
-      "maxAttempts": 30
+      ]
     }
   },
   "rakutenConfig": {
