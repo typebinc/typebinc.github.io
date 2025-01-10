@@ -1,156 +1,172 @@
 {
-    "tmallOldForceRedirectChromeVersion": "111.0.0.0",
-    "tmallOldRedirect": false,
-    "tmallNewUIToggle": false, 
-    "tmallNewUIRollout": 10,
-    "aliKRWQuery": "data.commonModule.currencyCode",
-    "aliKRWQueries": ["data.commonModule.currencyCode", "data.currencyComponent.currencyCode", "json.P_MTOP_PCDETAIL.data.result.GLOBAL_DATA.globalData.currencyCode"],
-     "aliDesc": {
-        "useDesc": true,
-        "descRootQuery": "#product-description",
-        "descUrlQuery": ["P_MTOP_PCDETAIL.data.data.productDescComponent.descriptionUrl", "P_MTOP_PCDETAIL.data.result.DESC.pcDescUrl", "descriptionModule.descriptionUrl", "description.fields.detailDesc", "productDescComponent.descriptionUrl"]
-    },
-    "taoDesc": {
-        "useHtmlReplace": true,
-        "htmlImageDownloadHeader": {
-                "headers": {
-                    "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
-                }
-            }
-    },
-    "tmallDesc": {
-        "useHtmlReplace": true,
-        "htmlImageDownloadHeader": {
-                "headers": {
-                    "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
-                }
-            }
-    },
-    "iHerbDesc": {
-        "querySelectors": [".inner-content", ".collapse-item-content#overview", ".collapse-item-content#details", ".collapse-item-content#product-supplement-facts"]
-    },
-    "worldTaobao": {
-        "useLink": true,
-        "useClick": true
-    },
-     "transHtml": {
-        "tb": false,
-        "ali": false,
-        "osee": false,
-        "amz": true,
-        "vvic": false,
-        "rkt": false,
-        "iherb": false
-    },
-    "disabledImageSearchBtn": false,
-    "sheinApiVersion": "1.1.8",
-    "disabledNaverImageSearchBtn": false,
-    "useOseeTracking": true,
-    "smartStoreConfig": {
-        "skipVideoHls": true
-    },
-    "vvicLoginCheck": {
-        "listButtonCheck": true,
-        "itemButtonCheck": true
-    },
-    "useAutoPhotoReview": true,
-    "photoReviewConfig": {
-        "score": 3,
-        "negativeWordCount": 2
-    },
-     "templateScrap": {
-        "v_taobao": "1.1.117",
-        "v_tmall": "1.1.117",
-        "v_vvic": "1.1.117",
-        "v_rakuten": "1.1.123",
-        "v_ali": "1.1.117"
-    },
-    "scrapConfig": {
-        "checkDuplication": true,
-        "useOffscreen": true
-    },
-    "taobaoConfig": {
-        "scrap": {
-            "useDynamicProperty": true,
-            "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
-            "dynamicMaxDepth": 30,
-            "useImageHeader": false
-        },
-        "trigger": {
-            "useDescTrigger": true,
-            "descClassName": "[class^=BasicContent]"
-        },
-          "cart": {
-             "querySelectors": {
-                 "container": [
-                     "#listContainer_1"
-                 ],
-                 "product": [
-                     "a[class*='imageContainer--']"
-                 ]
-             },
-            "maxAttempts": 30,
-            "attemptDelayMs":100
-         },
-        "seller_store":{
-            "querySelectors":[
-                {
-                    "container":["div[data-spm='product_shelf']>div"],
-                    "product":["a[class^=linkWrapperArea--]"]
-                },
-                {
-                    "container":[".J_TItems"],
-                    "product":["a.J_TGoldData"]
-                },
-                {
-                    "container":[".tshop-pbsm"],
-                    "product":["dl.item>dt.photo>a"]
-                }
-            ],
-            "urlRegex":[
-                "^https:\\/\\/\\w+(?:\\.world)?\\.(?:taobao|tmall)\\.com\\/shop\\/",
-                "^https:\\/\\/shop\\w+(?:\\.world)?\\.(?:taobao|tmall)\\.com\\/",
-                "^https:\\/\\/\\w{2,}(?:\\.world)?\\.(?:taobao|tmall)\\.com\\/search\\.htm",
-                "scene=taobao_shop",
-                "\\.(?:taobao|tmall)\\.com\\/category-\\d+\\.htm",
-                "^https:\\/\\/\\w{10,}\\.(?:taobao|tmall)\\.com\\/"
-            ],
-            "maxAttempts": 30,
-            "attemptDelayMs":100
-        }
-    },
-    "tmallConfig": {
-        "scrap": {
-            "useDynamicProperty": true,
-            "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
-            "dynamicMaxDepth": 30,
-            "useImageHeader": false
-        },
-        "trigger": {
-            "useDescTrigger": true,
-            "descClassName": "[class^=BasicContent--root]"
-        }
-    },
-    "amazonConfig":{
-        "productList":{
-            "querySelectors":{
-                "global":{
-                    "container": ["div[class*=_octopus-search-result-card_style_apbSearchResultsContainer__]"],
-                    "product": ["a.octopus-pc-item-link", "a.s-no-outline"]
-                },
-                "japan":{
-                    "container": ["div.s-main-slot"],
-                    "product": [ "div.s-product-image-container a[href*='/dp/']", "div.s-product-image-container a[href*='/gp/']"]
-                }
-            },
-            "maxAttempts": 30
-        }
-    },
-    "rakutenConfig": {
-        "scrap": {
-            "dynamicPropertyPaths": ["api.itemInfoSku"],
-            "dynamicMaxDepth": 50,           
-            "thumbnailSelectors": ["div[irc='Image'] img"]
-        }
+  "tmallOldForceRedirectChromeVersion": "111.0.0.0",
+  "tmallOldRedirect": false,
+  "tmallNewUIToggle": false,
+  "tmallNewUIRollout": 10,
+  "aliKRWQuery": "data.commonModule.currencyCode",
+  "aliKRWQueries": [
+    "data.commonModule.currencyCode",
+    "data.currencyComponent.currencyCode",
+    "json.P_MTOP_PCDETAIL.data.result.GLOBAL_DATA.globalData.currencyCode"
+  ],
+  "aliDesc": {
+    "useDesc": true,
+    "descRootQuery": "#product-description",
+    "descUrlQuery": [
+      "P_MTOP_PCDETAIL.data.data.productDescComponent.descriptionUrl",
+      "P_MTOP_PCDETAIL.data.result.DESC.pcDescUrl",
+      "descriptionModule.descriptionUrl",
+      "description.fields.detailDesc",
+      "productDescComponent.descriptionUrl"
+    ]
+  },
+  "taoDesc": {
+    "useHtmlReplace": true,
+    "htmlImageDownloadHeader": {
+      "headers": {
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+      }
     }
+  },
+  "tmallDesc": {
+    "useHtmlReplace": true,
+    "htmlImageDownloadHeader": {
+      "headers": {
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+      }
+    }
+  },
+  "iHerbDesc": {
+    "querySelectors": [
+      ".inner-content",
+      ".collapse-item-content#overview",
+      ".collapse-item-content#details",
+      ".collapse-item-content#product-supplement-facts"
+    ]
+  },
+  "worldTaobao": {
+    "useLink": true,
+    "useClick": true
+  },
+  "transHtml": {
+    "tb": false,
+    "ali": false,
+    "osee": false,
+    "amz": true,
+    "vvic": false,
+    "rkt": false,
+    "iherb": false
+  },
+  "disabledImageSearchBtn": false,
+  "sheinApiVersion": "1.1.8",
+  "disabledNaverImageSearchBtn": false,
+  "useOseeTracking": true,
+  "smartStoreConfig": {
+    "skipVideoHls": true
+  },
+  "vvicLoginCheck": {
+    "listButtonCheck": true,
+    "itemButtonCheck": true
+  },
+  "useAutoPhotoReview": true,
+  "photoReviewConfig": {
+    "score": 3,
+    "negativeWordCount": 2
+  },
+  "templateScrap": {
+    "v_taobao": "1.1.117",
+    "v_tmall": "1.1.117",
+    "v_vvic": "1.1.117",
+    "v_rakuten": "1.1.123",
+    "v_ali": "1.1.117"
+  },
+  "scrapConfig": {
+    "checkDuplication": true,
+    "useOffscreen": true
+  },
+  "taobaoConfig": {
+    "scrap": {
+      "useDynamicProperty": true,
+      "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
+      "dynamicMaxDepth": 30,
+      "useImageHeader": false
+    },
+    "trigger": {
+      "useDescTrigger": true,
+      "descClassName": "[class^=BasicContent]"
+    },
+    "cart": {
+      "querySelectors": {
+        "container": ["#listContainer_1"],
+        "product": ["a[class*='imageContainer--']"]
+      },
+      "maxAttempts": 30,
+      "attemptDelayMs": 100
+    },
+    "seller_store": {
+      "querySelectors": [
+        {
+          "container": ["div[data-spm='product_shelf']>div"],
+          "product": ["a[class^=linkWrapperArea--]"]
+        },
+        {
+          "container": [".J_TItems"],
+          "product": ["a.J_TGoldData"]
+        },
+        {
+          "container": [".tshop-pbsm"],
+          "product": ["dl.item>dt.photo>a"]
+        }
+      ],
+      "urlRegex": [
+        "^https:\\/\\/\\w+(?:\\.world)?\\.(?:taobao|tmall)\\.com\\/shop\\/",
+        "^https:\\/\\/shop\\w+(?:\\.world)?\\.(?:taobao|tmall)\\.com\\/",
+        "^https:\\/\\/\\w{2,}(?:\\.world)?\\.(?:taobao|tmall)\\.com\\/search\\.htm",
+        "scene=taobao_shop",
+        "\\.(?:taobao|tmall)\\.com\\/category-\\d+\\.htm",
+        "^https:\\/\\/\\w{10,}\\.(?:taobao|tmall)\\.com\\/"
+      ],
+      "maxAttempts": 30,
+      "attemptDelayMs": 100
+    }
+  },
+  "tmallConfig": {
+    "scrap": {
+      "useDynamicProperty": true,
+      "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
+      "dynamicMaxDepth": 30,
+      "useImageHeader": false
+    },
+    "trigger": {
+      "useDescTrigger": true,
+      "descClassName": "[class^=BasicContent--root]"
+    }
+  },
+  "amazonConfig": {
+    "productList": {
+      "querySelectors": {
+        "global": {
+          "container": [
+            "div[class*=_octopus-search-result-card_style_apbSearchResultsContainer__]"
+          ],
+          "product": ["a.octopus-pc-item-link", "a.s-no-outline"]
+        },
+        "japan": {
+          "container": ["div.s-main-slot"],
+          "product": [
+            "div.s-product-image-container a[href*='/dp/']",
+            "div.s-product-image-container a[href*='/gp/']"
+          ]
+        }
+      },
+      "maxAttempts": 30
+    }
+  },
+  "rakutenConfig": {
+    "scrap": {
+      "dynamicPropertyPaths": ["api.itemInfoSku"],
+      "dynamicMaxDepth": 50,
+      "thumbnailSelectors": ["div[irc='Image'] img"]
+    }
+  }
 }
