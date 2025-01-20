@@ -161,7 +161,9 @@
           "type": "japen"
         },
         {
-          "container": ["div.stores-page div.stores-column"],
+          "container": [
+            ".stores-column div[class*='ProductGrid__gridContainer']"
+          ],
           "product": [
             "li[class*='ProductGridItem__itemOuter'] a[class*='ProductGridItem__overlay']"
           ],
