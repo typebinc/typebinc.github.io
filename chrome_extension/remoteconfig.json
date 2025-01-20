@@ -149,7 +149,8 @@
           "container": ["div.s-main-slot"],
           "product": [
             "div.s-product-image-container a[href*='/dp/']",
-            "div.s-product-image-container a[href*='/gp/']"
+            "div.s-product-image-container a[href*='/gp/']",
+            "div.s-product-image-container a[href*='-spons%']"
           ],
           "type": "global"
         },
@@ -169,7 +170,9 @@
           ],
           "type": "seller_store"
         }
-      ]
+      ],
+      "maxAttempts": 30,
+      "attemptDelayMs": 100
     }
   },
   "rakutenConfig": {
