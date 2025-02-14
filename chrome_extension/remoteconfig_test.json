@@ -136,7 +136,7 @@
         {
           "container": ["div#mainsrp-itemlist"],
           "product": ["div.pic-box"],
-          "type": "old_selector"
+          "type": "old_list"
         }
       ]
     }
