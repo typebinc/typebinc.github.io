@@ -134,6 +134,11 @@
           "type": "common_list"
         },
         {
+          "container": ["div.tb-pick-feeds-container"],
+          "product": ["div.tb-pick-content-item a.item-link"],
+          "type": "main_page_list"
+        },
+        {
           "container": ["div#mainsrp-itemlist"],
           "product": ["div.pic-box"],
           "type": "old_list"
