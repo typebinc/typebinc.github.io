@@ -120,6 +120,25 @@
       ],
       "maxAttempts": 30,
       "attemptDelayMs": 100
+    },
+    "list": {
+      "querySelectors": [
+        {
+          "container": ["div[class^='detailHoverCardWrapper']"],
+          "product": ["a[class^='detailHoverCard']"],
+          "type": "product_dom_width_hover_expansion"
+        },
+        {
+          "container": ["[class^='leftContent']"],
+          "product": ["[class*='search-content-col']"],
+          "type": "common_list"
+        },
+        {
+          "container": ["div#mainsrp-itemlist"],
+          "product": ["div.pic-box"],
+          "type": "old_selector"
+        }
+      ]
     }
   },
   "tmallConfig": {
