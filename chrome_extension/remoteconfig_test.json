@@ -189,6 +189,15 @@
       ],
       "maxAttempts": 30,
       "attemptDelayMs": 100
+    },
+    "template": {
+      "salePrice": [
+        "div#corePrice_feature_div div div span.a-offscreen",
+        "div#corePriceDisplay_desktop_feature_div div span.aok-offscreen"
+      ],
+      "oriPrice": [
+        "span.basisPrice span.a-price.a-text-price span.a-offscreen"
+      ]
     }
   },
   "rakutenConfig": {
