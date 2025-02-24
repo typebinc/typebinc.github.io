@@ -212,11 +212,11 @@
     }
   },
   "rakutenFashionConfig": {
-		"scrap": {
-			"thumbnailSelector": ".item-images-thumbnail-item",
-			"stockInfoSelector": ".item-sku-actions-info",
-			"descTableSelector": ".item-detail-description",
-			"sizeTableSelector": ".item-detail-size-info"
-		}
-	}
+    "scrap": {
+      "thumbnailSelector": ".item-images-thumbnail-item",
+      "stockInfoSelector": ".item-sku-actions-info",
+      "descTableSelector": ".item-detail-description",
+      "sizeTableSelector": ".item-detail-size-info"
+    }
+  }
 }
