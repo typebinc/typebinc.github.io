@@ -197,6 +197,9 @@
       ],
       "oriPrice": [
         "span.basisPrice span.a-price.a-text-price span.a-offscreen"
+      ],
+      "optionImage": [
+        "img#landingImage"
       ]
     }
   },
