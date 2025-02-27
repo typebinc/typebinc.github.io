@@ -210,5 +210,13 @@
       "dynamicEssentialFields": ["itemId"],
       "thumbnailSelectors": ["div[irc='Image'] img"]
     }
+  },
+  "rakutenFashionConfig": {
+    "scrap": {
+      "thumbnailSelector": ".item-images-thumbnail-item",
+      "stockInfoSelector": ".item-sku-actions-info",
+      "descTableSelector": ".item-detail-description",
+      "sizeTableSelector": ".item-detail-size-info"
+    }
   }
 }
