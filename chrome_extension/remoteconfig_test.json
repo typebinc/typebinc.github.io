@@ -198,9 +198,10 @@
       "oriPrice": [
         "span.basisPrice span.a-price.a-text-price span.a-offscreen"
       ],
-      "optionImage": [
-        "#altImages"
-      ]
+      "optionImage": {
+        "container":"#altImages",
+        "idx": 1
+      }
     }
   },
   "rakutenConfig": {
