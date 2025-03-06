@@ -192,11 +192,7 @@
     },
     "template": {
       "salePrice": [
-        "div#corePrice_feature_div div div span.a-offscreen",
-        "div#corePriceDisplay_desktop_feature_div div span.aok-offscreen"
-      ],
-      "oriPrice": [
-        "span.basisPrice span.a-price.a-text-price span.a-offscreen"
+        "#twister-plus-price-data-price"
       ],
       "optionImage": {
         "container":"#altImages",
