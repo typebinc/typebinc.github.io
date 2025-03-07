@@ -199,7 +199,7 @@
         "idx": 0
       },
       "optionImage": {
-        "swatch": "#tp-inline-twister-dim-values-container",
+        "swatch": "#twister-plus-inline-twister",
         "select": "form#twister"
       }
     }
