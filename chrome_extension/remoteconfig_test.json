@@ -194,9 +194,13 @@
       "salePrice": [
         "#twister-plus-price-data-price"
       ],
-      "optionImage": {
+      "thumbnailImage": {
         "container":"#altImages",
         "idx": 1
+      },
+      "optionImage": {
+        "swatch": "#tp-inline-twister-dim-values-container",
+        "select": "form#twister"
       }
     }
   },
