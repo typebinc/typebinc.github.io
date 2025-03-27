@@ -260,5 +260,21 @@
         }
       ]
     }
+  },
+  "zozoTownConfig": {
+    "scrap": {
+      "optionGroupSelector": ".p-goods-information-action",
+      "colorsSelector": ".p-goods-information-action-color__name",
+      "coloImgsSelector": ".p-goods-information-action__term > button > img",
+      "sizeListSelector": { 
+        "default": ".p-goods-information-action__description > ul", 
+        "color": ".p-goods-add-cart-list" 
+      },
+      "stockSelector": ".p-goods-add-cart-stock",
+      "colorTitleSelector": ".p-goods-information-action__term",
+      "colorImgSelector": ".p-goods-add-cart-thumbnail > img",
+      "goodsInfoNoteSelector": "#tabItemInfo > div > div.p-goods-information-note > div",
+      "goodsInfoSpecSelector": "#tabItemInfo > div > div.p-goods-information-spec"
+    }
   }
 }
