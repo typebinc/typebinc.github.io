@@ -218,5 +218,62 @@
       "descTableSelector": ".item-detail-description",
       "sizeTableSelector": ".item-detail-size-info"
     }
+  },
+  "aliexpressConfig": {
+    "list": {
+      "querySelectors": [
+        {
+          "container": ["div[class$='-gallery']"],
+          "product": ["div[class$='-gallery'] a[href*='/item/']"],
+          "type": "category-detail",
+          "urlRegex": ["wholesale"]
+        },
+        {
+          "container": ["div[class^=\"cateWaterFall--categoryFallContainer\""],
+          "product": ["div.card-out-wrapper a[href*=\"/item/\"]"],
+          "type": "top-category",
+          "urlRegex": ["/p/"]
+        },
+        {
+          "container": ["div.ja_jb"],
+          "product": ["div.ja_je div.cm_cq a[href*=\"/item/\"]"],
+          "type": "main",
+          "urlRegex": ["best.aliexpress"]
+        },
+        {
+          "container": ["div[id=\"container\"]"],
+          "product": [
+            "div[id=\"right\"] a[href*=\"/item/\"]",
+            "a[ae_object_type=\"product\"]"
+          ],
+          "type": "seller-store-page",
+          "urlRegex": ["/store/"]
+        },
+        {
+          "container": [
+            "section[id=\"content\"] div[id=\"root\"] div[id=\"recyclerview\"]"
+          ],
+          "product": ["a.productContainer"],
+          "type": "event",
+          "urlRegex": ["/ssr/"]
+        }
+      ]
+    }
+  },
+  "zozoTownConfig": {
+    "scrap": {
+      "optionGroupSelector": ".p-goods-information-action",
+      "colorsSelector": ".p-goods-information-action-color__name",
+      "coloImgsSelector": ".p-goods-information-action__term > button > img",
+      "sizeListSelector": { 
+        "default": ".p-goods-information-action__description > ul", 
+        "color": ".p-goods-add-cart-list" 
+      },
+      "stockSelector": ".p-goods-add-cart-stock",
+      "colorTitleSelector": ".p-goods-information-action__term",
+      "colorImgSelector": ".p-goods-add-cart-thumbnail > img",
+      "goodsInfoNoteSelector": "#tabItemInfo > div > div.p-goods-information-note > div",
+      "goodsInfoSpecSelector": "#tabItemInfo > div > div.p-goods-information-spec"
+    }
   }
 }
