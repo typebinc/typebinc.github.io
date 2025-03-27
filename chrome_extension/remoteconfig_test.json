@@ -274,7 +274,10 @@
       "colorTitleSelector": ".p-goods-information-action__term",
       "colorImgSelector": ".p-goods-add-cart-thumbnail > img",
       "goodsInfoNoteSelector": "#tabItemInfo > div > div.p-goods-information-note > div",
-      "goodsInfoSpecSelector": "#tabItemInfo > div > div.p-goods-information-spec"
+      "goodsInfoSpecSelector": "#tabItemInfo > div > div.p-goods-information-spec",
+      "productItemImgSelector": ".m-catalog-search",
+      "storeUrlContainerXpath": "//*[@id=\"__next\"]/div[2]/div/main/div/div[2]/div[1]/div[2]",
+      "searchUrlContainerXpath": "//*[@id=\"__next\"]/div[2]/div/main/div/div[2]/div[1]/div[2]"
     }
   }
 }
