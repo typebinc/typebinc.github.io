@@ -3,7 +3,11 @@
   "tmallOldRedirect": false,
   "tmallNewUIToggle": false,
   "tmallNewUIRollout": 100,
-    "aliKRWQueries": ["data.commonModule.currencyCode", "data.currencyComponent.currencyCode", "json.P_MTOP_PCDETAIL.data.result.GLOBAL_DATA.globalData.currencyCode"],
+  "aliKRWQueries": [
+    "data.commonModule.currencyCode",
+    "data.currencyComponent.currencyCode",
+    "json.P_MTOP_PCDETAIL.data.result.GLOBAL_DATA.globalData.currencyCode"
+  ],
   "worldTaobao": {
     "useLink": true,
     "useClick": true
@@ -11,7 +15,13 @@
   "aliDesc": {
     "useDesc": true,
     "descRootQuery": "#product-description",
-        "descUrlQuery": ["P_MTOP_PCDETAIL.data.data.productDescComponent.descriptionUrl", "P_MTOP_PCDETAIL.data.result.DESC.pcDescUrl", "descriptionModule.descriptionUrl", "description.fields.detailDesc", "productDescComponent.descriptionUrl"]
+    "descUrlQuery": [
+      "P_MTOP_PCDETAIL.data.data.productDescComponent.descriptionUrl",
+      "P_MTOP_PCDETAIL.data.result.DESC.pcDescUrl",
+      "descriptionModule.descriptionUrl",
+      "description.fields.detailDesc",
+      "productDescComponent.descriptionUrl"
+    ]
   },
   "taoDesc": {
     "useHtmlReplace": true,
@@ -30,7 +40,12 @@
     }
   },
   "iHerbDesc": {
-        "querySelectors": [".inner-content", ".collapse-item-content#overview", ".collapse-item-content#details", ".collapse-item-content#product-supplement-facts"]
+    "querySelectors": [
+      ".inner-content",
+      ".collapse-item-content#overview",
+      ".collapse-item-content#details",
+      ".collapse-item-content#product-supplement-facts"
+    ]
   },
   "transHtml": {
     "tb": false,
@@ -86,12 +101,8 @@
     },
     "cart": {
       "querySelectors": {
-                 "container": [
-                     "#listContainer_1"
-                 ],
-                 "product": [
-                     "a[class*='imageContainer--']"
-                 ]
+        "container": ["#listContainer_1"],
+        "product": ["a[class*='imageContainer--']"]
       },
       "maxAttempts": 30,
       "attemptDelayMs": 100
@@ -192,11 +203,9 @@
       "attemptDelayMs": 100
     },
     "template": {
-      "salePrice": [
-        "#twister-plus-price-data-price"
-      ],
+      "salePrice": ["#twister-plus-price-data-price"],
       "thumbnailImage": {
-        "container":"#altImages",
+        "container": "#altImages",
         "idx": 0
       },
       "optionImage": {
