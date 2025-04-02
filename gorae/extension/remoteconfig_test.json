@@ -9,7 +9,9 @@
             "optionPriceSelector": ".option_price .tx_num",
             "thumbnailListSelector": ".prd_thumb_list li a",
             "categorySelector": ".cate_y",
-            "htmlDescSelector": "#goodsDetailHtml"
+            "htmlDescSelector": "#goodsDetailHtml",
+            "searchListSelector": "#ajaxList",
+            "rankingListSelector": ".TabsConts"
         }
     }
 }
