@@ -110,16 +110,23 @@
     "seller_store": {
       "querySelectors": [
         {
-          "container": ["div[data-spm='product_shelf']>div"],
-          "product": ["a[class^=linkWrapperArea--]"]
-        },
-        {
           "container": [".J_TItems"],
-          "product": ["a.J_TGoldData"]
+          "product": ["a.J_TGoldData"],
+          "urlRegex": [".*"],
+          "type": "dom"
         },
         {
           "container": [".tshop-pbsm"],
-          "product": ["dl.item>dt.photo>a"]
+          "product": ["dl.item>dt.photo>a"],
+          "urlRegex": [".*"],
+          "type": "dom"
+        },
+        {
+          "container": ["div[data-spm='product_shelf']>div"],
+          "product": ["div[class^='cardContainer--']"],
+          "fkey": "return.memoizedProps.itemCardData",
+          "urlRegex": [".*"],
+          "type": "inject"
         }
       ],
       "urlRegex": [
@@ -276,9 +283,9 @@
       "optionGroupSelector": ".p-goods-information-action",
       "colorsSelector": ".p-goods-information-action-color__name",
       "coloImgsSelector": ".p-goods-information-action__term > button > img",
-      "sizeListSelector": { 
-        "default": ".p-goods-information-action__description > ul", 
-        "color": ".p-goods-add-cart-list" 
+      "sizeListSelector": {
+        "default": ".p-goods-information-action__description > ul",
+        "color": ".p-goods-add-cart-list"
       },
       "stockSelector": ".p-goods-add-cart-stock",
       "colorTitleSelector": ".p-goods-information-action__term",
