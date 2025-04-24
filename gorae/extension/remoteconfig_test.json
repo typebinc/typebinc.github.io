@@ -30,7 +30,11 @@
             "imageLabelTitleSelector": ".Image-Select__Title",
             "imageLabelItemsSelector": ".Image-Select__Items",
             "imageLabelItemSelector": ".Image-Select__Item",
-            "productDetail": "#productDetail",
+            "productDetail": "#productDetail"
         }
+    },
+     "scrapConfig": {
+        "checkDuplication": true,
+        "useOffscreen": true
     }
 }
