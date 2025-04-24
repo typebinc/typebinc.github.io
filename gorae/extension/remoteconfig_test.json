@@ -13,5 +13,28 @@
             "searchListSelector": "#ajaxList",
             "rankingListSelector": ".TabsConts"
         }
+    },
+    "coupangConfig": {
+        "scrap": {
+            "dropdownSelectSelector": ".Dropdown-Select__Dropdown",
+            "prodOptionBoxSelector": ".prod-option_box",
+            "dropdownSelectItemSelector": ".Dropdown-Select__Dropdown__Item",
+            "prodOptionListSelector": ".prod-option__list",
+            "prodOptionListItemSelector": ".prod-option-dropdown-item",
+            "productNameSelector": ".prod-buy-header__title",
+            "thumbnailListSelector": ".prod-image__items",
+            "categorySelector": "#breadcrumb",
+            "attrSelector": "#Dropdown-Select__Attr-id",
+            "totalPriceSelector": ".total-price",
+            "imageLabelSelector": ".imageLabel",
+            "imageLabelTitleSelector": ".Image-Select__Title",
+            "imageLabelItemsSelector": ".Image-Select__Items",
+            "imageLabelItemSelector": ".Image-Select__Item",
+            "productDetail": "#productDetail"
+        }
+    },
+     "scrapConfig": {
+        "checkDuplication": true,
+        "useOffscreen": true
     }
 }
