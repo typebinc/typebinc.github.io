@@ -110,6 +110,13 @@
     "seller_store": {
       "querySelectors": [
         {
+          "container": ["div[data-spm='product_shelf']>div"],
+          "product": ["div[class^='cardContainer--']"],
+          "fkey": "return.memoizedProps.itemCardData",
+          "urlRegex": [".*"],
+          "type": "inject"
+        },
+        {
           "container": [".J_TItems"],
           "product": ["a.J_TGoldData"],
           "urlRegex": [".*"],
@@ -120,13 +127,6 @@
           "product": ["dl.item>dt.photo>a"],
           "urlRegex": [".*"],
           "type": "dom"
-        },
-        {
-          "container": ["div[data-spm='product_shelf']>div"],
-          "product": ["div[class^='cardContainer--']"],
-          "fkey": "return.memoizedProps.itemCardData",
-          "urlRegex": [".*"],
-          "type": "inject"
         }
       ],
       "urlRegex": [
