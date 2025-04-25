@@ -137,8 +137,11 @@
         "\\.(?:taobao|tmall)\\.com\\/category-\\d+\\.htm",
         "^https:\\/\\/\\w{10,}\\.(?:taobao|tmall)\\.com\\/"
       ],
-      "maxAttempts": 30,
-      "attemptDelayMs": 100
+      "retrySet": {
+        "querySelectorRetryCount": 3,
+        "allQuerySelectorRetryCount": 3,
+        "delayMs": 100
+      }
     },
     "list": {
       "querySelectors": [
