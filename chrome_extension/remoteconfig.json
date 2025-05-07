@@ -279,5 +279,23 @@
       "goodsInfoNoteSelector": "#tabItemInfo > div > div.p-goods-information-note > div",
       "goodsInfoSpecSelector": "#tabItemInfo > div > div.p-goods-information-spec"
     }
+  },
+  "vvicConfig": {
+    "seller_store": {
+      "querySelectors": [
+        {
+          "listContainer": ["div[class='goods-list shop-home']"],
+          "productContainer": ["div[class='goods-item']"],
+          "productContainerInLink": ["a"],
+          "loginCheck": ["span[class='itemcard-discountprice__unit']"],
+          "type": "seller_store_list",
+          "urlRegex": [".*"]
+        }
+      ],
+      "retrySet": {
+        "perSelectorRetryCount": 3,
+        "delayMs": 100
+      }
+    }
   }
 }
