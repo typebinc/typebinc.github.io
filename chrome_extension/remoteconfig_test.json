@@ -138,7 +138,7 @@
         "^https:\\/\\/\\w{10,}\\.(?:taobao|tmall)\\.com\\/"
       ],
       "retrySet": {
-        "perSelectorRetryCount": 6,
+        "perSelectorRetryCount": 10,
         "delayMs": 100
       }
     },
