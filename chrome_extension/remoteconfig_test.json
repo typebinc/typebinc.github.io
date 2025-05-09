@@ -316,7 +316,7 @@
         }
       ],
       "retrySet": {
-        "perSelectorRetryCount": 3,
+        "perSelectorRetryCount": 10,
         "delayMs": 100
       }
     }
