@@ -293,8 +293,8 @@
         }
       ],
       "retrySet": {
-        "perSelectorRetryCount": 3,
-        "delayMs": 100
+        "perSelectorRetryCount": 10,
+        "delayMs": 500
       }
     }
   }
