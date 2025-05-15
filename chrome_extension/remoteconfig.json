@@ -111,15 +111,22 @@
       "querySelectors": [
         {
           "container": ["div[data-spm='product_shelf']>div"],
-          "product": ["a[class^=linkWrapperArea--]"]
+          "product": ["div[class^='cardContainer--']"],
+          "fkey": "return.memoizedProps.itemCardData",
+          "urlRegex": [".*"],
+          "type": "inject"
         },
         {
           "container": [".J_TItems"],
-          "product": ["a.J_TGoldData"]
+          "product": ["a.J_TGoldData"],
+          "urlRegex": [".*"],
+          "type": "dom"
         },
         {
           "container": [".tshop-pbsm"],
-          "product": ["dl.item>dt.photo>a"]
+          "product": ["dl.item>dt.photo>a"],
+          "urlRegex": [".*"],
+          "type": "dom"
         }
       ],
       "urlRegex": [
@@ -130,8 +137,10 @@
         "\\.(?:taobao|tmall)\\.com\\/category-\\d+\\.htm",
         "^https:\\/\\/\\w{10,}\\.(?:taobao|tmall)\\.com\\/"
       ],
-      "maxAttempts": 30,
-      "attemptDelayMs": 100
+      "retrySet": {
+        "perSelectorRetryCount": 10,
+        "delayMs": 100
+      }
     },
     "list": {
       "querySelectors": [
