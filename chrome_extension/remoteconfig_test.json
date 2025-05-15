@@ -307,10 +307,10 @@
     "seller_store": {
       "querySelectors": [
         {
-          "listContainer": ["div[class='goods-list shop-home']"],
-          "productContainer": ["div[class='goods-item']"],
+          "listContainer": ["div[class*='goods-list shop-home']"],
+          "productContainer": ["div[class*='goods-item']"],
           "productContainerInLink": ["a"],
-          "loginCheck": ["span[class='itemcard-discountprice__unit']"],
+          "loginCheck": ["span[class*='itemcard-discountprice__unit']"],
           "type": "seller_store_list",
           "urlRegex": [".*"]
         }
