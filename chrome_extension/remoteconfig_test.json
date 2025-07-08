@@ -226,7 +226,8 @@
       "optionImage": {
         "swatch": "#twister-plus-inline-twister",
         "select": "form#twister"
-      }
+      },
+      "outOfStock": ["#outOfStock", "#deliveryBlockMessage"]
     }
   },
   "rakutenConfig": {
