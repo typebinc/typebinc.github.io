@@ -232,10 +232,7 @@
   },
   "rakutenConfig": {
     "scrap": {
-      "dynamicPropertyPaths": ["api.itemInfoSku"],
-      "dynamicMaxDepth": 50,
-      "dynamicEssentialFields": ["itemId"],
-      "thumbnailSelectors": ["div[irc='Image'] img"]
+      "dataQuerySelector": ["#item-page-app-data"]
     }
   },
   "rakutenFashionConfig": {
