@@ -320,5 +320,8 @@
         "delayMs": 500
       }
     }
+  },
+  "distributorTaobaoConfig": {
+    "registerRedirectUrl": "https://distributor.taobao.global/apps/user/register?rc=percenty01"
   }
 }
