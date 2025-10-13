@@ -218,7 +218,7 @@
       "attemptDelayMs": 100
     },
     "template": {
-      "salePrice": ["#twister-plus-price-data-price", "[id$='_feature_div'] span.a-price-whole"],
+      "salePrice": ["#twister-plus-price-data-price", "[id$='_feature_div']"],
       "thumbnailImage": {
         "container": "#altImages",
         "idx": 0
