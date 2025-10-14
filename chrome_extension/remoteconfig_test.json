@@ -94,7 +94,8 @@
       "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
       "dynamicMaxDepth": 30,
       "useImageHeader": false,
-      "loginPass": false
+      "loginPass": false,
+      "retry": 12
     },
     "trigger": {
       "useDescTrigger": true,
@@ -178,7 +179,8 @@
       "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
       "dynamicMaxDepth": 30,
       "useImageHeader": false,
-      "loginPass": false
+      "loginPass": false,
+      "retry": 12
     },
     "trigger": {
       "useDescTrigger": true,
