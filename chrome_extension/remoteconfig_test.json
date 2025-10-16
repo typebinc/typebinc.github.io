@@ -229,7 +229,8 @@
         "swatch": "#twister-plus-inline-twister",
         "select": "form#twister"
       },
-      "outOfStock": ["#outOfStock", "#deliveryBlockMessage"]
+      "outOfStock": ["#outOfStock", "#deliveryBlockMessage"],
+      "alwaysAllowScrap": false
     }
   },
   "rakutenConfig": {
