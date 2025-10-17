@@ -220,7 +220,7 @@
       "attemptDelayMs": 100
     },
     "template": {
-      "salePrice": ["#twister-plus-price-data-price", "#corePrice_feature_div", "#corePriceDisplay_desktop_feature_div"],
+      "salePrice": ["#twister-plus-price-data-price", "input[name='items[0.base][customerVisiblePrice][amount]']"],
       "thumbnailImage": {
         "container": "#altImages",
         "idx": 0
