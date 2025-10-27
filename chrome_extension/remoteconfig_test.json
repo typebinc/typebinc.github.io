@@ -95,7 +95,7 @@
       "dynamicMaxDepth": 30,
       "useImageHeader": false,
       "loginPass": false,
-      "retry": 12
+      "retry": 6
     },
     "trigger": {
       "useDescTrigger": true,
@@ -180,7 +180,7 @@
       "dynamicMaxDepth": 30,
       "useImageHeader": false,
       "loginPass": false,
-      "retry": 12
+      "retry": 6
     },
     "trigger": {
       "useDescTrigger": true,
