@@ -88,6 +88,9 @@
       "https://img.alicdn.com/imgextra/i3/2215983636899/O1CN012UcSia20pnUy8Q1bA_!!2215983636899.png"
     ]
   },
+  "config1688": {
+    "useApiScrap": false
+  },
   "taobaoConfig": {
     "scrap": {
       "useDynamicProperty": true,
