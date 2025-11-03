@@ -5,7 +5,7 @@
             "optionListSelector": "#option_list",
             "productNameSelector": ".prd_name",
             "optionGroupsSelector": "#option_list",
-            "optionSelector": ".option_value",
+            "optionSelector": "#option_list > li",
             "optionPriceSelector": ".option_price .tx_num",
             "thumbnailListSelector": ".prd_thumb_list li a",
             "categorySelector": ".cate_y",
