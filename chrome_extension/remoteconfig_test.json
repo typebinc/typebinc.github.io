@@ -89,7 +89,7 @@
     ]
   },
   "config1688": {
-    "useApiScrap": false
+    "useApiScrap": true
   },
   "taobaoConfig": {
     "scrap": {
