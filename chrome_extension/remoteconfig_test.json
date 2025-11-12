@@ -243,8 +243,8 @@
   },
   "rakutenFashionConfig": {
     "scrap": {
-      "thumbnailSelector": ".item-images-thumbnail-item",
-      "stockInfoSelector": ".item-sku-actions-info",
+      "thumbnailSelector": "li.item-images-thumbnail-item img",
+      "stockInfoSelector": "form.item-sku-actions-form",
       "descTableSelector": ".item-detail-description",
       "sizeTableSelector": ".item-detail-size-info"
     }
