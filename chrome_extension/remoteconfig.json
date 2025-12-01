@@ -249,6 +249,8 @@
     "scrap": {
       "thumbnailSelector": ".item-images-thumbnail-item",
       "stockInfoSelector": ".item-sku-actions-info",
+      "thumbnailSelectorV2": "li.item-images-thumbnail-item img",
+      "stockInfoSelectorV2": "form.item-sku-actions-form",
       "descTableSelector": ".item-detail-description",
       "sizeTableSelector": ".item-detail-size-info"
     }
