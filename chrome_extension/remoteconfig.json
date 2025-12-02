@@ -18,7 +18,8 @@
       "descriptionModule.descriptionUrl",
       "description.fields.detailDesc",
       "productDescComponent.descriptionUrl"
-    ]
+    ],
+    "alertDescNotFound": true
   },
   "taoDesc": {
     "useHtmlReplace": false,
