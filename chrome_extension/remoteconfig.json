@@ -233,7 +233,11 @@
         "swatch": "#twister-plus-inline-twister",
         "select": "form#twister"
       },
-      "outOfStock": ["#outOfStock", "#deliveryBlockMessage"],
+      "outOfStock": {
+        "quantityStatus": "#availability span.a-color-price, #availability-string",
+        "quantityElement": "select#quantity",
+        "cartElement": "#add-to-cart-button, #addToCart_feature_div, #almAddToCart_feature_div #freshAddToCartButton"
+      },
       "alwaysAllowScrap": false
     }
   },
