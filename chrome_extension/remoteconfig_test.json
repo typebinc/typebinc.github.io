@@ -223,7 +223,7 @@
       "attemptDelayMs": 100
     },
     "template": {
-      "salePrice": ["#twister-plus-price-data-price", "input[name='items[0.base][customerVisiblePrice][amount]']"],
+      "salePrice": ["#twister-plus-price-data-price", "input[name='items[0.base][customerVisiblePrice][amount]']", "input[id='priceValue']"],
       "thumbnailImage": {
         "container": "#altImages",
         "idx": 0
