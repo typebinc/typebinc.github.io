@@ -233,9 +233,9 @@
         "select": "form#twister"
       },
       "outOfStock": {
-        "quantityStatus": ["#availability span.a-color-price", "#availability-string"],
-        "quantityElement": ["select#quantity"],
-        "cartElement": ["#add-to-cart-button', '#addToCart_feature_div', '#almAddToCart_feature_div #freshAddToCartButton"]
+        "quantityStatus": "#availability span.a-color-price, #availability-string",
+        "quantityElement": "select#quantity",
+        "cartElement": "#add-to-cart-button, #addToCart_feature_div, #almAddToCart_feature_div #freshAddToCartButton"
       },
       "alwaysAllowScrap": false
     }
