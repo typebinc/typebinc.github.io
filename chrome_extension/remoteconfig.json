@@ -183,7 +183,7 @@
       "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
       "dynamicMaxDepth": 30,
       "useImageHeader": false,
-      "loginPass": false,
+      "loginPass": true,
       "retry": 12
     },
     "trigger": {
