@@ -19,7 +19,7 @@
       "description.fields.detailDesc",
       "productDescComponent.descriptionUrl"
     ],
-    "alertDescNotFound": true
+    "alertDescNotFound": false
   },
   "taoDesc": {
     "useHtmlReplace": false,
