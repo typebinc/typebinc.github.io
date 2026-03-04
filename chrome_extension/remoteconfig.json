@@ -90,7 +90,18 @@
     ]
   },
   "config1688": {
-    "useApiScrap": false
+    "useApiScrap": true,
+    "login": [
+      {
+        "querySelectors": [
+          {
+            "container": [".*"],
+            "target": ["div[data-click='od-submit-order-login-btn']"],
+            "urlRegex": [".*"]
+          }
+        ]
+      }
+    ]
   },
   "taobaoConfig": {
     "scrap": {
@@ -224,7 +235,12 @@
       "attemptDelayMs": 100
     },
     "template": {
-      "salePrice": ["#twister-plus-price-data-price", "input[name='items[0.base][customerVisiblePrice][amount]']", "input[id='priceValue']", "input[id='twister-plus-price-data-price']"],
+      "salePrice": [
+        "#twister-plus-price-data-price",
+        "input[name='items[0.base][customerVisiblePrice][amount]']",
+        "input[id='priceValue']",
+        "input[id='twister-plus-price-data-price']"
+      ],
       "thumbnailImage": {
         "container": "#altImages",
         "idx": 0
