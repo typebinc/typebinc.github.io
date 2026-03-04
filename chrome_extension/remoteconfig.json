@@ -91,17 +91,15 @@
   },
   "config1688": {
     "useApiScrap": false,
-    "login": [
-      {
-        "querySelectors": [
-          {
-            "container": [".*"],
-            "target": ["div[data-click='od-submit-order-login-btn']"],
-            "urlRegex": [".*"]
-          }
-        ]
-      }
-    ]
+    "login": {
+      "querySelectors": [
+        {
+          "container": [".*"],
+          "target": ["div[data-click='od-submit-order-login-btn']"],
+          "urlRegex": [".*"]
+        }
+      ]
+    }
   },
   "taobaoConfig": {
     "scrap": {
