@@ -101,6 +101,11 @@
           "container": [".*"],
           "target": ["a[class='do-re-login']"],
           "urlRegex": [".*"]
+        },
+        {
+          "container": [".*"],
+          "target": ["span[data-i18n='1688-global-od-kj.app.common.login']"],
+          "urlRegex": [".*"]
         }
       ]
     }
