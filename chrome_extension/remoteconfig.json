@@ -97,6 +97,11 @@
           "container": [".*"],
           "target": ["div[data-click='od-submit-order-login-btn']"],
           "urlRegex": [".*"]
+        },
+        {
+          "container": [".*"],
+          "target": ["a[class='do-re-login']"],
+          "urlRegex": [".*"]
         }
       ]
     }
