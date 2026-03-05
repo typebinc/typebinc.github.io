@@ -108,7 +108,8 @@
           "urlRegex": [".*"]
         }
       ]
-    }
+    },
+    "removeUrlQueries": [{ "key": "kjSource", "value": ".*" }]
   },
   "taobaoConfig": {
     "scrap": {
