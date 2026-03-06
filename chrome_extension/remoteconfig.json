@@ -263,6 +263,10 @@
         "cartElement": "#add-to-cart-button, #addToCart_feature_div, #almAddToCart_feature_div #freshAddToCartButton"
       },
       "alwaysAllowScrap": false
+    },
+    "retryScrap": {
+      "maxAttempts": 10,
+      "attemptDelayMs": 100
     }
   },
   "rakutenConfig": {
