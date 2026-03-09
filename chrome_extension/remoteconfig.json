@@ -265,7 +265,7 @@
       "alwaysAllowScrap": false
     },
     "retryScrap": {
-      "maxAttempts": 10,
+      "maxAttempts": 15,
       "attemptDelayMs": 100
     }
   },
