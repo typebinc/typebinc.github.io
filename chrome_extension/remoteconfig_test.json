@@ -100,23 +100,46 @@
     "login": {
       "querySelectors": [
         {
-          "container": [".*"],
-          "target": ["div[data-click='od-submit-order-login-btn']"],
-          "urlRegex": [".*"]
+          "container": [
+            ".*"
+          ],
+          "target": [
+            "div[data-click='od-submit-order-login-btn']"
+          ],
+          "urlRegex": [
+            ".*"
+          ]
         },
         {
-          "container": [".*"],
-          "target": ["a[class='do-re-login']"],
-          "urlRegex": [".*"]
+          "container": [
+            ".*"
+          ],
+          "target": [
+            "a[class='do-re-login']"
+          ],
+          "urlRegex": [
+            ".*"
+          ]
         },
         {
-          "container": [".*"],
-          "target": ["span[data-i18n='1688-global-od-kj.app.common.login']"],
-          "urlRegex": [".*"]
+          "container": [
+            ".*"
+          ],
+          "target": [
+            "span[data-i18n='1688-global-od-kj.app.common.login']"
+          ],
+          "urlRegex": [
+            ".*"
+          ]
         }
       ]
     },
-    "removeUrlQueries": [{ "key": "kjSource", "value": ".*" }],
+    "removeUrlQueries": [
+      {
+        "key": "kjSource",
+        "value": ".*"
+      }
+    ],
     "sourceProductIdentifier": {
       "barcodeLabels": {
         "gtin": [
@@ -129,7 +152,13 @@
   "taobaoConfig": {
     "scrap": {
       "useDynamicProperty": true,
-      "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
+      "dynamicPropertyPaths": [
+        [
+          "stateNode",
+          "state",
+          "detail"
+        ]
+      ],
       "dynamicMaxDepth": 30,
       "useImageHeader": false,
       "loginPass": false,
@@ -141,8 +170,12 @@
     },
     "cart": {
       "querySelectors": {
-        "container": ["#listContainer_1"],
-        "product": ["a[class*='imageContainer--']"]
+        "container": [
+          "#listContainer_1"
+        ],
+        "product": [
+          "a[class*='imageContainer--']"
+        ]
       },
       "maxAttempts": 30,
       "attemptDelayMs": 100
@@ -150,22 +183,40 @@
     "seller_store": {
       "querySelectors": [
         {
-          "container": ["div[data-spm='product_shelf']>div"],
-          "product": ["div[class^='cardContainer--']"],
+          "container": [
+            "div[data-spm='product_shelf']>div"
+          ],
+          "product": [
+            "div[class^='cardContainer--']"
+          ],
           "fkey": "return.memoizedProps.itemCardData",
-          "urlRegex": [".*"],
+          "urlRegex": [
+            ".*"
+          ],
           "type": "inject"
         },
         {
-          "container": [".J_TItems"],
-          "product": ["a.J_TGoldData"],
-          "urlRegex": [".*"],
+          "container": [
+            ".J_TItems"
+          ],
+          "product": [
+            "a.J_TGoldData"
+          ],
+          "urlRegex": [
+            ".*"
+          ],
           "type": "dom"
         },
         {
-          "container": [".tshop-pbsm"],
-          "product": ["dl.item>dt.photo>a"],
-          "urlRegex": [".*"],
+          "container": [
+            ".tshop-pbsm"
+          ],
+          "product": [
+            "dl.item>dt.photo>a"
+          ],
+          "urlRegex": [
+            ".*"
+          ],
           "type": "dom"
         }
       ],
@@ -185,28 +236,52 @@
     "list": {
       "querySelectors": [
         {
-          "container": ["div[class^='leftContent'] div#content_items_wrapper"],
-          "product": ["[class*='search-content-col']"],
+          "container": [
+            "div[class^='leftContent'] div#content_items_wrapper"
+          ],
+          "product": [
+            "[class*='search-content-col']"
+          ],
           "type": "common_list",
-          "urlRegex": [".*"]
+          "urlRegex": [
+            ".*"
+          ]
         },
         {
-          "container": ["div.tb-pick-feeds-container div.tbpc-row"],
-          "product": ["div.tb-pick-content-item a.item-link"],
+          "container": [
+            "div.tb-pick-feeds-container div.tbpc-row"
+          ],
+          "product": [
+            "div.tb-pick-content-item a.item-link"
+          ],
           "type": "main_page_list",
-          "urlRegex": ["www\\.taobao\\.com/($|\\?|#)"]
+          "urlRegex": [
+            "www\\.taobao\\.com/($|\\?|#)"
+          ]
         },
         {
-          "container": ["div.tb-pick-feeds-container"],
-          "product": ["div.tb-pick-content-item a.item-link"],
+          "container": [
+            "div.tb-pick-feeds-container"
+          ],
+          "product": [
+            "div.tb-pick-content-item a.item-link"
+          ],
           "type": "main_page_list",
-          "urlRegex": ["world\\.taobao\\.com/($|\\?|#)"]
+          "urlRegex": [
+            "world\\.taobao\\.com/($|\\?|#)"
+          ]
         },
         {
-          "container": ["div#mainsrp-itemlist"],
-          "product": ["div.pic-box"],
+          "container": [
+            "div#mainsrp-itemlist"
+          ],
+          "product": [
+            "div.pic-box"
+          ],
           "type": "old_list",
-          "urlRegex": [".*"]
+          "urlRegex": [
+            ".*"
+          ]
         }
       ]
     },
@@ -222,7 +297,13 @@
   "tmallConfig": {
     "scrap": {
       "useDynamicProperty": true,
-      "dynamicPropertyPaths": [["stateNode", "state", "detail"]],
+      "dynamicPropertyPaths": [
+        [
+          "stateNode",
+          "state",
+          "detail"
+        ]
+      ],
       "dynamicMaxDepth": 30,
       "useImageHeader": false,
       "loginPass": false,
@@ -250,7 +331,9 @@
     "list": {
       "querySelectors": [
         {
-          "container": ["div.s-main-slot"],
+          "container": [
+            "div.s-main-slot"
+          ],
           "product": [
             "div.s-product-image-container a[href*='/dp/']",
             "div.s-product-image-container a[href*='/gp/']",
@@ -262,7 +345,9 @@
           "container": [
             "div[class*='_octopus-search-result-card_style_apbSearchResultsContainer__']"
           ],
-          "product": ["a.octopus-pc-item-link, a.s-no-outline"],
+          "product": [
+            "a.octopus-pc-item-link, a.s-no-outline"
+          ],
           "type": "japen"
         },
         {
@@ -307,7 +392,9 @@
   },
   "rakutenConfig": {
     "scrap": {
-      "dataQuerySelector": ["#item-page-app-data"]
+      "dataQuerySelector": [
+        "#item-page-app-data"
+      ]
     }
   },
   "rakutenFashionConfig": {
@@ -324,39 +411,65 @@
     "list": {
       "querySelectors": [
         {
-          "container": ["div[class$='-gallery']"],
-          "product": ["div[class$='-gallery'] a[href*='/item/']"],
+          "container": [
+            "div[class$='-gallery']"
+          ],
+          "product": [
+            "div[class$='-gallery'] a[href*='/item/']"
+          ],
           "type": "category-detail",
-          "urlRegex": ["wholesale"]
+          "urlRegex": [
+            "wholesale"
+          ]
         },
         {
-          "container": ["div[class^=\"cateWaterFall--categoryFallContainer\""],
-          "product": ["div.card-out-wrapper a[href*=\"/item/\"]"],
+          "container": [
+            "div[class^=\"cateWaterFall--categoryFallContainer\""
+          ],
+          "product": [
+            "div.card-out-wrapper a[href*=\"/item/\"]"
+          ],
           "type": "top-category",
-          "urlRegex": ["/p/"]
+          "urlRegex": [
+            "/p/"
+          ]
         },
         {
-          "container": ["div.ja_jb"],
-          "product": ["div.ja_je div.cm_cq a[href*=\"/item/\"]"],
+          "container": [
+            "div.ja_jb"
+          ],
+          "product": [
+            "div.ja_je div.cm_cq a[href*=\"/item/\"]"
+          ],
           "type": "main",
-          "urlRegex": ["best.aliexpress"]
+          "urlRegex": [
+            "best.aliexpress"
+          ]
         },
         {
-          "container": ["div[id=\"container\"]"],
+          "container": [
+            "div[id=\"container\"]"
+          ],
           "product": [
             "div[id=\"right\"] a[href*=\"/item/\"]",
             "a[ae_object_type=\"product\"]"
           ],
           "type": "seller-store-page",
-          "urlRegex": ["/store/"]
+          "urlRegex": [
+            "/store/"
+          ]
         },
         {
           "container": [
             "section[id=\"content\"] div[id=\"root\"] div[id=\"recyclerview\"]"
           ],
-          "product": ["a.productContainer"],
+          "product": [
+            "a.productContainer"
+          ],
           "type": "event",
-          "urlRegex": ["/ssr/"]
+          "urlRegex": [
+            "/ssr/"
+          ]
         }
       ]
     }
@@ -389,12 +502,22 @@
     "seller_store": {
       "querySelectors": [
         {
-          "listContainer": ["div[class*='goods-list shop-home']"],
-          "productContainer": ["div[class*='goods-item']"],
-          "productContainerInLink": ["a"],
-          "loginCheck": ["span[class*='itemcard-discountprice__unit']"],
+          "listContainer": [
+            "div[class*='goods-list shop-home']"
+          ],
+          "productContainer": [
+            "div[class*='goods-item']"
+          ],
+          "productContainerInLink": [
+            "a"
+          ],
+          "loginCheck": [
+            "span[class*='itemcard-discountprice__unit']"
+          ],
           "type": "seller_store_list",
-          "urlRegex": [".*"]
+          "urlRegex": [
+            ".*"
+          ]
         }
       ],
       "retrySet": {
