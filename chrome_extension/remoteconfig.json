@@ -43,7 +43,12 @@
       ".collapse-item-content#overview",
       ".collapse-item-content#details",
       ".collapse-item-content#product-supplement-facts"
-    ]
+    ],
+    "sourceProductIdentifier": {
+      "barcodeLabels": {
+        "gtin": ["Barcode"]
+      }
+    }
   },
   "worldTaobao": {
     "useLink": true,
@@ -109,6 +114,11 @@
           "urlRegex": [".*"]
         }
       ]
+    },
+    "sourceProductIdentifier": {
+      "barcodeLabels": {
+        "gtin": ["条码", "條碼"]
+      }
     }
   },
   "taobaoConfig": {
@@ -194,6 +204,11 @@
           "urlRegex": [".*"]
         }
       ]
+    },
+    "sourceProductIdentifier": {
+      "barcodeLabels": {
+        "gtin": ["条码", "條碼"]
+      }
     }
   },
   "tmallConfig": {
@@ -208,6 +223,14 @@
     "trigger": {
       "useDescTrigger": true,
       "descClassName": "[class^=BasicContent--root]"
+    },
+    "sourceProductIdentifier": {
+      "modelLabels": {
+        "model_number": ["商品型号"]
+      },
+      "barcodeLabels": {
+        "gtin": ["条码", "條碼"]
+      }
     }
   },
   "amazonConfig": {
@@ -346,6 +369,9 @@
       "productItemImgSelector": ".m-catalog-search",
       "storeUrlContainerXpath": "//*[@id=\"__next\"]/div[2]/div/main/div/div[2]/div[1]/div[2]",
       "searchUrlContainerXpath": "//*[@id=\"__next\"]/div[2]/div/main/div/div[2]/div[1]/div[2]"
+    },
+    "sourceProductIdentifier": {
+      "ignoreLabels": ["問い合わせ番号（ZOZO）"]
     }
   },
   "vvicConfig": {
@@ -364,9 +390,35 @@
         "perSelectorRetryCount": 10,
         "delayMs": 500
       }
+    },
+    "sourceProductIdentifier": {
+      "modelLabels": {
+        "seller_product_code": ["상품 번호"]
+      }
     }
   },
   "distributorTaobaoConfig": {
     "registerRedirectUrl": "https://distributor.taobao.global/apps/user/register?rc=percenty01"
+  },
+  "sheinConfig": {
+    "sourceProductIdentifier": {
+      "modelLabels": {
+        "seller_product_code": ["SKU"]
+      }
+    }
+  },
+  "temuConfig": {
+    "sourceProductIdentifier": {
+      "barcodeLabels": {
+        "gtin": ["Barcode"]
+      }
+    }
+  },
+  "opleConfig": {
+    "sourceProductIdentifier": {
+      "barcodeLabels": {
+        "gtin": ["Barcode"]
+      }
+    }
   }
 }
