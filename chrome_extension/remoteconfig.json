@@ -83,7 +83,7 @@
     "v_taobao": "1.1.117",
     "v_tmall": "1.1.117",
     "v_vvic": "1.1.117",
-    "v_rakuten": "1.1.123",
+    "v_rakuten": "1.1.117",
     "v_ali": "1.1.117"
   },
   "scrapConfig": {
@@ -294,10 +294,6 @@
   },
   "rakutenConfig": {
     "scrap": {
-      "dynamicPropertyPaths": ["api.itemInfoSku"],
-      "dynamicMaxDepth": 50,
-      "dynamicEssentialFields": ["itemId"],
-      "thumbnailSelectors": ["div[irc='Image'] img"],
       "dataQuerySelector": ["#item-page-app-data"]
     }
   },
