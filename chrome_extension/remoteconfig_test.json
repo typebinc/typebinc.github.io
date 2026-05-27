@@ -51,7 +51,12 @@
         "gtin": [
           "Barcode"
         ]
-      }
+      },
+      "brandLabels": [
+        "제조사",
+        "Brand",
+        "Brand Name"
+      ]
     }
   },
   "transHtml": {
@@ -146,7 +151,12 @@
           "条码",
           "條碼"
         ]
-      }
+      },
+      "brandLabels": [
+        "品牌",
+        "商品品牌",
+        "品牌名称"
+      ]
     }
   },
   "taobaoConfig": {
@@ -291,7 +301,12 @@
           "条码",
           "條碼"
         ]
-      }
+      },
+      "brandLabels": [
+        "品牌",
+        "商品品牌",
+        "品牌名称"
+      ]
     }
   },
   "tmallConfig": {
@@ -324,7 +339,12 @@
           "条码",
           "條碼"
         ]
-      }
+      },
+      "brandLabels": [
+        "品牌",
+        "商品品牌",
+        "品牌名称"
+      ]
     }
   },
   "amazonConfig": {
@@ -388,12 +408,27 @@
     "retryScrap": {
       "maxAttempts": 7,
       "attemptDelayMs": 100
+    },
+    "sourceProductIdentifier": {
+      "brandLabels": [
+        "브랜드 이름",
+        "Brand Name",
+        "Brand"
+      ]
     }
   },
   "rakutenConfig": {
     "scrap": {
       "dataQuerySelector": [
         "#item-page-app-data"
+      ]
+    },
+    "sourceProductIdentifier": {
+      "brandLabels": [
+        "ブランド",
+        "ブランド名",
+        "メーカー",
+        "メーカー名"
       ]
     }
   },
@@ -405,6 +440,14 @@
       "stockInfoSelectorV2": "form.item-sku-actions-form",
       "descTableSelector": ".item-detail-description",
       "sizeTableSelector": ".item-detail-size-info"
+    },
+    "sourceProductIdentifier": {
+      "brandLabels": [
+        "ブランド",
+        "ブランド名",
+        "メーカー",
+        "メーカー名"
+      ]
     }
   },
   "aliexpressConfig": {
@@ -472,6 +515,13 @@
           ]
         }
       ]
+    },
+    "sourceProductIdentifier": {
+      "brandLabels": [
+        "品牌",
+        "商品品牌",
+        "品牌名称"
+      ]
     }
   },
   "zozoTownConfig": {
@@ -495,6 +545,10 @@
     "sourceProductIdentifier": {
       "ignoreLabels": [
         "問い合わせ番号（ZOZO）"
+      ],
+      "brandLabels": [
+        "ブランド",
+        "ブランド名"
       ]
     }
   },
@@ -542,7 +596,10 @@
         "seller_product_code": [
           "SKU"
         ]
-      }
+      },
+      "brandLabels": [
+        "Brand"
+      ]
     }
   },
   "temuConfig": {
@@ -551,7 +608,11 @@
         "gtin": [
           "Barcode"
         ]
-      }
+      },
+      "brandLabels": [
+        "Brand",
+        "Brand Name"
+      ]
     }
   },
   "opleConfig": {
@@ -560,7 +621,11 @@
         "gtin": [
           "Barcode"
         ]
-      }
+      },
+      "brandLabels": [
+        "Brand",
+        "Brand Name"
+      ]
     }
   }
 }
