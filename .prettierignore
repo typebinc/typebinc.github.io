@@ -1,0 +1,10 @@
+# 의존성 / 잠금 파일
+node_modules/
+package-lock.json
+
+# 빌드 산출물(webpack 번들) - 원본 소스가 아니므로 포맷 대상 아님
+chrome_extension/rscript/
+
+# 도구 내부 디렉터리
+.claude/
+.git/

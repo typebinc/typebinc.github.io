@@ -1,0 +1,16 @@
+{
+  "name": "typebinc-github-io",
+  "version": "0.0.0",
+  "private": true,
+  "description": "TYPE B GitHub Pages - chrome extension remote configs",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "3.9.6"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
