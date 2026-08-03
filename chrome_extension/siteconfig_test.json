@@ -1,47 +1,39 @@
 {
-    "version": "1.0.1",
-    "sites": [
+  "version": "1.0.1",
+  "sites": [
+    {
+      "urlPatterns": ["https://detail.tmall.com/*", "https://*.detail.tmall.com/*", "https://detail.tmall.hk/*"],
+      "scraping": {
+        "canScrap": false,
+        "withHtml": true,
+        "withWindow": [
+          {
+            "essential": true,
+            "keyPath": "P_MTOP_PCDETAIL",
+            "resultJsonKey": "P_MTOP_PCDETAIL"
+          },
+          {
+            "essential": true,
+            "keyPath": "P_MTOP_PCDESC",
+            "resultJsonKey": "P_MTOP_PCDESC"
+          }
+        ]
+      },
+      "netCap": [
         {
-            "urlPatterns": [
-                "https://detail.tmall.com/*",
-                "https://*.detail.tmall.com/*",
-                "https://detail.tmall.hk/*"
-            ],
-            "scraping": {
-                "canScrap": false,
-                "withHtml": true,
-                "withWindow": [
-                    {
-                        "essential": true,
-                        "keyPath": "P_MTOP_PCDETAIL",
-                        "resultJsonKey": "P_MTOP_PCDETAIL"
-                    },
-                    {
-                        "essential": true,
-                        "keyPath": "P_MTOP_PCDESC",
-                        "resultJsonKey": "P_MTOP_PCDESC"
-                    }
-                ]
-            },
-            "netCap": [
-                {
-                    "urlPatterns": [
-                        "https://*mtop.taobao.pcdetail.data.get*"
-                    ],
-                    "windowKey": "P_MTOP_PCDETAIL"
-                }
-            ],
-            "elemCap": [
-                {
-                    "scriptOperation": {
-                        "srcUrlPatterns": [
-                            "*/mtop.taobao.detail.getdesc/*"
-                        ],
-                        "isCallSrc": true
-                    },
-                    "windowKey": "P_MTOP_PCDESC"
-                }
-            ]
+          "urlPatterns": ["https://*mtop.taobao.pcdetail.data.get*"],
+          "windowKey": "P_MTOP_PCDETAIL"
         }
-    ]
+      ],
+      "elemCap": [
+        {
+          "scriptOperation": {
+            "srcUrlPatterns": ["*/mtop.taobao.detail.getdesc/*"],
+            "isCallSrc": true
+          },
+          "windowKey": "P_MTOP_PCDESC"
+        }
+      ]
+    }
+  ]
 }

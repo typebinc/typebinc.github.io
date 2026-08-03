@@ -1,15 +1,15 @@
 {
-    "oliveyoungConfig": {
-        "scrap": {
-            "optionBoxSelector": "#buyOpt",
-            "optionListSelector": "#option_list",
-            "productNameSelector": ".prd_name",
-            "optionGroupsSelector": "#option_list",
-            "optionSelector": "#option_list > li",
-            "optionPriceSelector": ".option_price .tx_num",
-            "thumbnailListSelector": ".prd_thumb_list li a",
-            "categorySelector": ".cate_y",
-            "htmlDescSelector": "#goodsDetailHtml"
-        }
+  "oliveyoungConfig": {
+    "scrap": {
+      "optionBoxSelector": "#buyOpt",
+      "optionListSelector": "#option_list",
+      "productNameSelector": ".prd_name",
+      "optionGroupsSelector": "#option_list",
+      "optionSelector": "#option_list > li",
+      "optionPriceSelector": ".option_price .tx_num",
+      "thumbnailListSelector": ".prd_thumb_list li a",
+      "categorySelector": ".cate_y",
+      "htmlDescSelector": "#goodsDetailHtml"
     }
+  }
 }
