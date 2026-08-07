@@ -425,5 +425,130 @@
       },
       "brandLabels": ["Brand", "Brand Name"]
     }
+  },
+  "aiAssistantConfig": {
+    "prompts": {
+      "thumbnailImage": {
+        "overrides": {
+          "persona": "당신은 국내 오픈마켓(쿠팡, 스마트스토어, G마켓, 옥션)의 해외구매대행 파워셀러입니다.",
+          "input": "입력 이미지는 해외 쇼핑몰의 상세페이지 또는 상품 이미지입니다.",
+          "style": "원본 스타일 유지: 레이아웃·시각 요소와 원본 폰트의 분위기와 서체 특성은 유지합니다.",
+          "wording": "중국어·외국어 문구는 직역하지 말고 이미지 맥락에 맞는 자연스러운 한국어 쇼핑 문구로 새로 작성합니다.",
+          "units": "해외 단위와 표기는 한국 기준으로 변환하고, 사이즈표·사양표·성분표는 한국어로 현지화합니다.",
+          "remove": "할인·쿠폰·가격·행사 배너와 배송·보험 안내는 제거합니다.",
+          "usage": "이 이미지는 검색 결과와 상품 목록에 작게 노출되는 썸네일입니다.",
+          "composition": "상품이 화면의 대부분을 차지하도록 배치하고, 잘리지 않게 가장자리에 여백을 둡니다.",
+          "copy": "문구는 핵심 소구점 하나만 크고 굵게 남기고 나머지 설명 문구는 지웁니다.",
+          "background": "배경은 상품이 도드라지도록 깔끔하게 정리합니다.",
+          "closing": "국내 오픈마켓에 바로 사용할 수 있는 완성도 높은 한국어 상품 이미지로 만듭니다."
+        }
+      },
+      "optionImage": {
+        "overrides": {
+          "persona": "당신은 국내 오픈마켓(쿠팡, 스마트스토어, G마켓, 옥션)의 해외구매대행 파워셀러입니다.",
+          "input": "입력 이미지는 해외 쇼핑몰의 상세페이지 또는 상품 이미지입니다.",
+          "style": "원본 스타일 유지: 레이아웃·시각 요소와 원본 폰트의 분위기와 서체 특성은 유지합니다.",
+          "wording": "중국어·외국어 문구는 직역하지 말고 이미지 맥락에 맞는 자연스러운 한국어 쇼핑 문구로 새로 작성합니다.",
+          "units": "해외 단위와 표기는 한국 기준으로 변환하고, 사이즈표·사양표·성분표는 한국어로 현지화합니다.",
+          "remove": "할인·쿠폰·가격·행사 배너와 배송·보험 안내는 제거합니다.",
+          "usage": "이 이미지는 옵션 선택 목록에 아주 작게 노출되는 옵션 이미지입니다.",
+          "distinction": "해당 옵션(색상·사이즈·구성)이 무엇인지 한눈에 구분되도록 그 부분이 잘 보이게 담습니다.",
+          "copy": "옵션명 외의 설명 문구는 지우고, 남기는 글자는 작게 봐도 읽히는 크기로 씁니다.",
+          "consistency": "같은 상품의 다른 옵션 이미지와 배경·구도·밝기를 통일합니다.",
+          "closing": "국내 오픈마켓에 바로 사용할 수 있는 완성도 높은 한국어 상품 이미지로 만듭니다."
+        }
+      },
+      "detailImage": {
+        "overrides": {
+          "persona": "당신은 국내 오픈마켓(쿠팡, 스마트스토어, G마켓, 옥션)의 해외구매대행 파워셀러입니다.",
+          "input": "입력 이미지는 해외 쇼핑몰의 상세페이지 또는 상품 이미지입니다.",
+          "style": "원본 스타일 유지: 레이아웃·시각 요소와 원본 폰트의 분위기와 서체 특성은 유지합니다.",
+          "wording": "중국어·외국어 문구는 직역하지 말고 이미지 맥락에 맞는 자연스러운 한국어 쇼핑 문구로 새로 작성합니다.",
+          "units": "해외 단위와 표기는 한국 기준으로 변환하고, 사이즈표·사양표·성분표는 한국어로 현지화합니다.",
+          "remove": "할인·쿠폰·가격·행사 배너와 배송·보험 안내는 제거합니다.",
+          "usage": "이 이미지는 상세페이지 본문에 세로로 이어 붙는 상세 이미지입니다.",
+          "information": "원본의 정보량과 문단·표 구조를 그대로 두고, 설명 문구를 빠짐없이 한국어로 옮깁니다.",
+          "tables": "사이즈표·사양표는 표 형태를 유지한 채 항목명과 단위까지 한국 기준으로 바꿉니다.",
+          "ratio": "이미지의 가로세로 비율은 원본 그대로 유지해 본문에서 이어 붙을 때 어긋나지 않게 합니다.",
+          "closing": "국내 오픈마켓에 바로 사용할 수 있는 완성도 높은 한국어 상품 이미지로 만듭니다."
+        }
+      },
+      "nameKeyword": {
+        "overrides": {
+          "intro.persona": "당신은 국내 오픈마켓인 쿠팡, 스마트스토어, ESM(지마켓·옥션)의 상품 등록 전문가입니다.",
+          "intro.sourceInfo": "수집 상품 정보 (판단 근거로만 사용하고 출력 JSON에 포함하지 마세요)",
+          "rule.buyerInference": "상품 정보와 markets를 바탕으로 예상 구매자의 연령대·성별·관심 특성을 먼저 내부적으로 추론하고, 그 결과를 상품명·키워드 작성에 반영하세요. 추론 내용은 JSON에 추가하지 마세요.",
+          "rule.productNameWithSs": "productName.oriData를 쿠팡 등 국내 오픈마켓의 소비자에게 자연스럽고 검색에 유리한 상품명으로 번역하고 최적화하여 productName.transMap.ko에 입력하세요.",
+          "rule.productNameOnly": "productName.oriData를 한국 소비자에게 자연스럽고 검색에 유리한 상품명으로 번역하고 최적화하여 productName.transMap.ko에 입력하세요.",
+          "rule.productNameSs": "productNameSs는 스마트스토어 전용 노출 상품명입니다. 브랜드·상품군·핵심 속성을 자연스러운 어순으로 조합하고, 키워드 반복·과장 문구 없이 50자 내외로 작성하세요.",
+          "rule.keywords": "keywords는 빈 값 없는 자연스러운 검색 키워드로 작성하세요.",
+          "rule.keepFields": "oriData, productId, markets의 값·순서와 입력에 없는 필드는 변경하지 마세요.",
+          "rule.smartStoreChars": "스마트스토어가 포함되면 번역 결과에 다음 특수문자를 쓰지 마세요: \\ * ? \" < >"
+        }
+      },
+      "optionName": {
+        "overrides": {
+          "intro.persona": "당신은 국내 오픈마켓인 쿠팡, 스마트스토어, ESM(지마켓·옥션)의 상품 등록 전문가입니다.",
+          "intro.productNameReference": "상품명 참고: {{productName}}",
+          "rule.buyerInference": "상품명과 markets를 바탕으로 예상 구매자의 연령대·성별·관심 특성을 먼저 내부적으로 추론하고, 그 결과를 옵션명 작성에 반영하세요. 추론 내용은 JSON에 추가하지 마세요.",
+          "rule.optionName": "optionInfos의 각 oriData를 자연스러운 한국어 옵션명으로 번역하여 transMap.ko에 입력하세요.",
+          "rule.keepFields": "oriData, productId, optionInfos[].path, markets의 값·순서, optionInfos의 개수와 입력에 없는 필드는 변경하지 마세요.",
+          "rule.smartStoreChars": "스마트스토어가 포함되면 번역 결과에 다음 특수문자를 쓰지 마세요: \\ * ? \" < >"
+        }
+      },
+      "marketAttr": {
+        "overrides": {
+          "intro.persona": "당신은 국내 오픈마켓인 쿠팡과 스마트스토어의 상품 등록 전문가입니다.",
+          "intro.goal": "아래 상품의 쿠팡 카테고리 필터와 스마트스토어 상품속성 입력값을 정해 아래 출력 규칙의 JSON 으로만 답하세요.",
+          "intro.noProse": "판단 과정·검토 의견·확인 요청을 문장이나 표로 쓰지 말고, 결론만 JSON 에 담으세요.",
+          "rule.grades": "각 항목을 두 등급으로 나눠 처리하세요.\n   - [일반] 색상·소재·패턴·용도·시즌처럼 상품의 외관·용도를 나타내는 속성\n   - [민감] 인증·안전·검사·허가·신고번호·KC·전기용품·생활화학제품·의료기기·식품/건강기능·연령(영유아·아동)·원산지/제조국·성분/함량·친환경/유기농·특허/정품처럼 사실 확인이 필요한 속성",
+          "rule.normalItems": "[일반] 항목은 productInfo와 후보값을 근거로 가장 적절한 값을 고르되, 애매하면 생략하세요.",
+          "rule.sensitiveItems": "[민감] 항목은 productInfo 안에 그 값을 직접 뒷받침하는 문장이 있을 때만 응답하고, 그 문장을 수정·번역·요약 없이 입력에 있는 그대로 evidence 에 복사해 넣으세요. 추론·유추·업계 통념(\"보통 이런 상품은 ~\")은 근거가 아닙니다. 근거 문장이 없으면 그 항목 전체를 생략하세요.",
+          "rule.sensitiveNoGuess": "[민감] 항목의 후보값에 '해당없음'·'미인증'·'기타' 같은 값이 있어도 임의로 선택하지 마세요. 모르면 선택이 아니라 생략입니다.",
+          "rule.evidenceDiscard": "evidence 는 입력에 없는 문장이면 자동으로 폐기되며, 그 항목도 함께 버려집니다. 채운 항목 수보다 채운 항목이 맞는지가 중요하므로 생략은 감점이 아닙니다.",
+          "rule.omitMeansOmit": "생략은 그 항목을 배열에서 빼는 것만을 뜻합니다. 생략한 이유나 확인이 필요하다는 안내를 문장으로 쓰지 말고, 고를 수 있는 항목이 하나도 없어도 빈 배열이 담긴 JSON 을 출력하세요.",
+          "rule.coupangFilters": "coupang.filters의 key는 입력 filters의 key를 그대로 사용하고, inputType이 SELECT면 values 중 하나만 value로 선택하세요.",
+          "rule.smartStoreAttributes": "smartStore.attributes의 attributeId/attributeKey는 입력 attributes의 id/key를 그대로 사용하고, valueIds는 values의 id 중에서 count 개수 이하로 선택하세요.",
+          "rule.keepFields": "requestId와 productId는 입력 값을 그대로 유지하고, 입력에 없는 값이나 필드를 추가하지 마세요."
+        }
+      },
+      "optionStructure": {
+        "overrides": {
+          "intro.persona": "당신은 국내 오픈마켓인 쿠팡의 상품 등록 전문가입니다.",
+          "intro.goal": "아래 상품의 옵션 구조를 재구성하고 쿠팡 필수옵션에 매칭해 아래 출력 규칙의 JSON 으로만 답하세요.",
+          "intro.noProse": "판단 과정·검토 의견·확인 요청을 문장이나 표로 쓰지 말고, 결론만 JSON 에 담으세요.",
+          "rule.goal": "목표는 쿠팡 필수옵션(requiredOptions)이 제시하는 타입 구성에 맞게 옵션 구조를 재배치·재구성하는 것입니다. 필수옵션마다 대응하는 targetType 을 만들고 매칭하는 것을 우선하세요. 결합된 값의 분리(예: \"검정 M\" → 색상: 검정 + 사이즈: M), 병합, 순서 재배치, 명칭 한국어화를 할 수 있습니다.",
+          "rule.choiceGroup": "같은 fieldKey 를 공유하는 필수옵션들은 같은 그룹의 택1입니다. 그중 상품에 가장 맞는 하나만 targetType 에 매칭하고, 같은 fieldKey 의 다른 필수옵션은 매칭하지 마세요.",
+          "rule.combinations": "optionStructure.combinations 는 원본 옵션값들이 실제로 조합된 목록입니다. 어떤 차원들이 함께 변하는지 참고해 분리·병합을 판단하고, 재구성 결과에서 서로 다른 조합이 같은 최종 조합이 되지 않게 하세요.",
+          "rule.valueFormat": "필수옵션에 valueFormat 이 있으면 그 타입에 매칭된 최종 옵션값(targetValueName)은 예외 없이 valueFormat 이 지시하는 형식으로 쓰세요. 형식 위반 값은 적용 시 조용히 버려지므로, 원본 값명을 그대로 유지하는 것보다 형식을 맞추는 것이 우선입니다.",
+          "rule.valueCandidates": "valueFormat 이 없는 필수옵션도 values 후보가 있으면 가능한 한 그 후보 중에서 고르고, basicUnit/usableUnits 가 있으면 단위 표기를 그 기준에 맞추세요. 원본 타입명·값명을 그대로 유지하는 것은 중요하지 않습니다.",
+          "rule.targetTypeName": "쿠팡 필수옵션에 매칭한 targetType 의 targetTypeName 은 해당 필수옵션의 key 를 사용하세요.",
+          "rule.lossless": "무손실 재구성이 원칙입니다. 삭제하지 않은 모든 원본 옵션값을 valueMappings 에 정확히 한 번씩 포함하고, 각 값이 나타내는 최종 타입 값들로 변환하세요. targetValues 를 빈 배열로 두어 값을 버리는 것은 허용되지 않습니다.",
+          "rule.unmatchedTypes": "쿠팡 필수옵션에 매칭되지 않는 원본 타입은 억지로 병합하거나 변형하지 말고 별도의 최종 타입으로 그대로 유지하세요.",
+          "rule.typeDeletion": "유지해야 할 타입이 {{maxTargetTypes}}개를 넘어 무손실 재구성이 불가능할 때만, 상품 구매 판단에 가장 덜 중요한 타입부터 최소한으로 deletions.sourceTypeKeys 에 선언해 제거하고 deletionReason 에 사유를 한 문장으로 쓰세요. 제거한 타입의 옵션값은 valueMappings 에 포함하지 마세요.",
+          "rule.deletionImpact": "타입을 제거하면 그 차원만 달랐던 SKU 들이 같은 조합이 되어 하나만 남고 나머지는 삭제됩니다(가격·재고 손실). 그러므로 값 개수가 가장 적은 타입부터 제거하고, 제거 없이 해결할 수 있으면 제거하지 마세요.",
+          "rule.valueDeletion": "어느 축에도 넣을 수 없는 예외적인 옵션값만 deletions.sourceValueKeys 로 제거할 수 있습니다. 이때도 deletionReason 을 쓰고, 제거한 값은 valueMappings 에 포함하지 마세요.",
+          "rule.noProductOptionIds": "deletions.productOptionIds 는 사용할 수 없습니다 (SKU 를 직접 지정해 삭제하는 것은 금지).",
+          "rule.unavailable": "삭제까지 동원해도 재구성이 불가능한 경우에만 optionStructureUnavailable 로 사유를 응답하세요.",
+          "rule.newType": "원본 계보가 없는 신규 타입은 defaultValueName 으로 모든 SKU 에 공통 적용됩니다.",
+          "rule.targetTypeCount": "targetTypes 는 1개 이상 {{maxTargetTypes}}개 이하이며{{quantitySlotNote}}, targetTypeKey 는 target:0 형식으로 순서대로 부여하세요. targetTypes 순서가 최종 옵션타입 순서입니다.",
+          "rule.noNewIds": "입력에 없는 ID나 key를 만들지 마세요. sourceValueKey 는 입력 값만 참조하세요.",
+          "rule.coupangMatching": "targetType 을 쿠팡 필수옵션에 매칭할 때는 입력 requiredOptions 의 fieldKey/key 를 coupangFieldKey/coupangOptionKey 에 그대로 넣으세요. 쿠팡 '색상'은 실제 색상 외에 스타일·모델명·패턴명 같은 상품 대표 구분값도 매칭할 수 있으며, coupangOptionKey 는 확장 표시명이 아니라 원본 key 를 사용하세요.",
+          "rule.quantity": "수량 필수옵션(coupangOptionKey {{quantityOptionKey}})은 optionStructure 가 아니라 requiredOptions 에 quantity(양의 정수 문자열)와 usableUnits 중 unit 으로 답하세요.",
+          "rule.keepFields": "baseStructureHash, requestId, productId 는 입력 값을 그대로 유지하세요."
+        }
+      },
+      "productDetail": {
+        "overrides": {
+          "intro.persona": "당신은 국내 오픈마켓 상품 상세페이지 기획 및 카피라이팅 전문가입니다.",
+          "rule.goalHeading": "작업 목표",
+          "rule.goal": "현재 상세페이지의 문구만 자연스럽고 설득력 있게 개선하세요. 이미지, 표, 링크, 강조 태그와 문단 순서를 변경하지 마세요. 변경한 문구만 patches 항목으로 segmentId와 translatedText를 반환하세요.",
+          "rule.mustHeading": "필수 규칙",
+          "rule.noInvention": "1. 입력에 없는 성능, 효과, 인증, 원산지, 소재, 규격을 만들지 마세요.",
+          "rule.keepFields": "2. requestId, productId, baseServerRevision, baseEditorHash를 입력값 그대로 유지하세요.",
+          "rule.noMarkup": "3. raw HTML, CSS, JavaScript를 출력하지 마세요."
+        }
+      }
+    }
   }
 }
