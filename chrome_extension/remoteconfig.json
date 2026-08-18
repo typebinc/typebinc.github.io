@@ -507,9 +507,11 @@
           "rule.sensitiveNoGuess": "[민감] 항목의 후보값에 '해당없음'·'미인증'·'기타' 같은 값이 있어도 임의로 선택하지 마세요. 모르면 선택이 아니라 생략입니다.",
           "rule.evidenceDiscard": "evidence 는 입력에 없는 문장이면 자동으로 폐기되며, 그 항목도 함께 버려집니다. 채운 항목 수보다 채운 항목이 맞는지가 중요하므로 생략은 감점이 아닙니다.",
           "rule.omitMeansOmit": "생략은 그 항목을 배열에서 빼는 것만을 뜻합니다. 생략한 이유나 확인이 필요하다는 안내를 문장으로 쓰지 말고, 고를 수 있는 항목이 하나도 없어도 빈 배열이 담긴 JSON 을 출력하세요.",
+          "rule.omissionNote": "항목을 하나라도 생략했으면 그 대표 사유를 omissionNote 에 한국어 1~2문장으로 적으세요 (예: '색상·소재를 뒷받침하는 정보가 없습니다'). 생략한 항목이 없으면 omissionNote 도 생략하세요.",
+          "rule.categoryMismatch": "후보값 전체가 이 상품과 다른 품목(예: 의류 상품인데 공구 관련 후보)이라 고를 수 있는 항목이 하나도 없으면 categoryMismatch 를 true 로 두고, omissionNote 에 어떤 품목의 후보로 보이는지 적으세요. 일부라도 고를 수 있으면 categoryMismatch 는 넣지 마세요.",
           "rule.coupangFilters": "coupang.filters의 key는 입력 filters의 key를 그대로 사용하고, inputType이 SELECT면 values 중 하나만 value로 선택하세요.",
           "rule.smartStoreAttributes": "smartStore.attributes의 attributeId/attributeKey는 입력 attributes의 id/key를 그대로 사용하고, valueIds는 values의 id 중에서 count 개수 이하로 선택하세요.",
-          "rule.keepFields": "requestId와 productId는 입력 값을 그대로 유지하고, 입력에 없는 값이나 필드를 추가하지 마세요."
+          "rule.keepFields": "requestId와 productId는 입력 값을 그대로 유지하고, 입력에 없는 값을 지어내거나 출력 형식에 없는 필드를 추가하지 마세요."
         }
       },
       "optionStructure": {
