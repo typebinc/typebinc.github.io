@@ -169,6 +169,12 @@
           "product": ["dl.item>dt.photo>a"],
           "urlRegex": [".*"],
           "type": "dom"
+        },
+        {
+          "container": ["div[data-spm='product_shelf']>div:has(a.shop-item-card[data-item-id])"],
+          "product": ["div[data-spm='product_shelf'] a.shop-item-card[data-item-id]"],
+          "urlRegex": [".*"],
+          "type": "dom"
         }
       ],
       "urlRegex": [
@@ -432,6 +438,7 @@
     }
   },
   "aiAssistantConfig": {
+    "productSplitMaxCount": 30,
     "prompts": {
       "thumbnailImage": {
         "overrides": {
